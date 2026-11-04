@@ -10,6 +10,7 @@ verificado-em: 2026-11-04
 |---|---|---|---|
 | **Developer Associate (DVA-C03)** | [[DVA-C03 - Glossario]] | [[DVA-C03 - Prompts de Questoes]] | ✅ v1 completo |
 | **Solutions Architect Associate (SAA-C03)** | [[SAA-C03 - Glossario]] | [[SAA-C03 - Prompts de Questoes]] | ✅ v1 completo e conferido |
+| **Simulados Developer (DVA-C03)** | [[DVA-C03 - Simulado 1]] · [[DVA-C03 - Simulado 2]] · [[DVA-C03 - Simulado 3]] | 65 questões cada, gabarito no final | ✅ (04/11/2026) |
 | Fontes e links de validação | [[Referencias e Fontes]] | | ✅ |
 | Nota anterior (resumo informal) | [[Conteúdo de estudos Architect – Associate]] | | existente |
 
