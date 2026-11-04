@@ -1,0 +1,14 @@
+# Obsidian: estado local de cada maquina (muda a cada abertura)
+.obsidian/workspace.json
+.obsidian/workspaces.json
+.obsidian/workspace-mobile.json
+.obsidian/graph.json
+.obsidian/cache
+.obsidian/plugins/*/data.json
+
+# Sistema operacional / editores
+.DS_Store
+Thumbs.db
+desktop.ini
+.trash/
+.claude/settings.local.json
