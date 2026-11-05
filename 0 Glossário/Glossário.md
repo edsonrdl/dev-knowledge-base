@@ -553,7 +553,7 @@
 
 ### Padrões e Arquitetura de IA
 
-- [ ] [[14. Inteligência Artificial e Machine Learning/Retrieval-Augmented Generation (RAG)/0 Retrieval-Augmented Generation (RAG) (Glossário )|Retrieval-Augmented Generation (RAG)]]
+- [x] [[14. Inteligência Artificial e Machine Learning/Retrieval-Augmented Generation (RAG)/0 Retrieval-Augmented Generation (RAG) (Glossário )|Retrieval-Augmented Generation (RAG)]]
 - [ ] [[14. Inteligência Artificial e Machine Learning/Agentic Workflows e Orquestração/0 Agentic Workflows e Orquestração (Glossário )|Agentic Workflows e Orquestração]]
 - [ ] [[14. Inteligência Artificial e Machine Learning/Harness — Runtime de Controle de Agentes/0 Harness — Runtime de Controle de Agentes (Glossário )|Harness — Runtime de Controle de Agentes]]
 - [ ] [[14. Inteligência Artificial e Machine Learning/Protocolos de Agentes — MCP e A2A/0 Protocolos de Agentes — MCP e A2A (Glossário )|Protocolos de Agentes — MCP e A2A]]
