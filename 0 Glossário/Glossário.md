@@ -520,6 +520,9 @@
 ### Conceitos e Fundamentos
 
 - [ ] [[14. Inteligência Artificial e Machine Learning/Fundamentos de ML-AI/0 Fundamentos de ML-AI (Glossário )|Fundamentos de ML/AI]]
+- [ ] [[14. Inteligência Artificial e Machine Learning/Matemática para ML/0 Matemática para ML (Glossário )|Matemática para ML]]
+- [ ] [[14. Inteligência Artificial e Machine Learning/Pré-processamento e Engenharia de Features/0 Pré-processamento e Engenharia de Features (Glossário )|Pré-processamento e Engenharia de Features]]
+- [ ] [[14. Inteligência Artificial e Machine Learning/Processamento de Linguagem Natural (NLP)/0 Processamento de Linguagem Natural (NLP) (Glossário )|Processamento de Linguagem Natural (NLP)]]
 - [ ] [[14. Inteligência Artificial e Machine Learning/Aprendizado Supervisionado/0 Aprendizado Supervisionado (Glossário )|Aprendizado Supervisionado]]
 - [ ] [[14. Inteligência Artificial e Machine Learning/Aprendizado Não Supervisionado/0 Aprendizado Não Supervisionado (Glossário )|Aprendizado Não Supervisionado]]
 - [ ] [[14. Inteligência Artificial e Machine Learning/Redes Neurais/0 Redes Neurais (Glossário )|Redes Neurais]]
@@ -528,6 +531,7 @@
 
 ### Ferramentas e Bibliotecas
 
+- [ ] [[14. Inteligência Artificial e Machine Learning/Python para Ciência de Dados (NumPy, pandas, Jupyter)/0 Python para Ciência de Dados (NumPy, pandas, Jupyter) (Glossário )|Python para Ciência de Dados (NumPy, pandas, Jupyter)]]
 - [ ] [[14. Inteligência Artificial e Machine Learning/scikit-learn/0 scikit-learn (Glossário )|scikit-learn]]
 - [ ] [[14. Inteligência Artificial e Machine Learning/TensorFlow/0 TensorFlow (Glossário )|TensorFlow]]
 - [ ] [[14. Inteligência Artificial e Machine Learning/PyTorch/0 PyTorch (Glossário )|PyTorch]]
@@ -553,6 +557,7 @@
 
 ### Padrões e Arquitetura de IA
 
+- [ ] [[14. Inteligência Artificial e Machine Learning/Engenharia de Prompts/0 Engenharia de Prompts (Glossário )|Engenharia de Prompts]]
 - [x] [[14. Inteligência Artificial e Machine Learning/Retrieval-Augmented Generation (RAG)/0 Retrieval-Augmented Generation (RAG) (Glossário )|Retrieval-Augmented Generation (RAG)]]
 - [ ] [[14. Inteligência Artificial e Machine Learning/Agentic Workflows e Orquestração/0 Agentic Workflows e Orquestração (Glossário )|Agentic Workflows e Orquestração]]
 - [ ] [[14. Inteligência Artificial e Machine Learning/Harness — Runtime de Controle de Agentes/0 Harness — Runtime de Controle de Agentes (Glossário )|Harness — Runtime de Controle de Agentes]]
