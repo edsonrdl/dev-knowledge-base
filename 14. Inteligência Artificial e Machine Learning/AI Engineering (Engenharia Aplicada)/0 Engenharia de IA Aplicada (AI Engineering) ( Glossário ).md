@@ -31,7 +31,7 @@
 
 ### 0.3 Como as Categorias se Conectam na Prática
 - **0.3.1. Exemplo de Pipeline Completo**
-  - [ ] 0.3.1.1. Exemplo passo a passo — construir um chatbot de contratos combinando as 7 categorias de ferramentas em um único pipeline.
+  - [x] [[14. Inteligência Artificial e Machine Learning/AI Engineering (Engenharia Aplicada)/0. Guia de Orientação/0.3 Como as Categorias se Conectam na Prática/0.3.1. Exemplo de Pipeline Completo/0.3.1.1. Construindo um Chatbot de Contratos — As 7 Categorias em um Único Pipeline|0.3.1.1. Construindo um Chatbot de Contratos — As 7 Categorias em um Único Pipeline]]
 
 ---
 
@@ -39,18 +39,18 @@
 
 ### 1.1 Contexto, Tokens e Inferência
 - **1.1.1. Gestão de Context Window**
-  - [ ] 1.1.1.1. Tokenização e custo de API, Sliding Window/Truncation, Long Context e "Lost in the Middle", e Prompt Caching nativo (Anthropic/OpenAI).
+  - [x] [[14. Inteligência Artificial e Machine Learning/AI Engineering (Engenharia Aplicada)/1. Fundamentos de LLM e Unidades de Controle/1.1 Contexto, Tokens e Inferência/1.1.1. Gestão de Context Window/1.1.1.1. Gestão de Context Window — Tokens, Custo, Long Context e Prompt Caching|1.1.1.1. Gestão de Context Window — Tokens, Custo, Long Context e Prompt Caching]]
 - **1.1.2. Tuning de Parâmetros de API**
-  - [ ] 1.1.2.1. Temperature e Top-P, Semantic Caching (Redis/RedisVL), e estratégias de cache em múltiplas camadas (GPTCache).
+  - [x] [[14. Inteligência Artificial e Machine Learning/AI Engineering (Engenharia Aplicada)/1. Fundamentos de LLM e Unidades de Controle/1.1 Contexto, Tokens e Inferência/1.1.2. Tuning de Parâmetros de API/1.1.2.1. Temperature, Top-P e Semantic Caching|1.1.2.1. Temperature, Top-P e Semantic Caching]]
 - **1.1.3. Modelos de Raciocínio (Thinking Models)**
-  - [ ] 1.1.3.1. O paradigm shift dos modelos de raciocínio (o1/o3, Extended Thinking), seus tradeoffs de custo, e o controle de budget tokens.
+  - [x] [[14. Inteligência Artificial e Machine Learning/AI Engineering (Engenharia Aplicada)/1. Fundamentos de LLM e Unidades de Controle/1.1 Contexto, Tokens e Inferência/1.1.3. Modelos de Raciocínio (Thinking Models)/1.1.3.1. Modelos de Raciocínio — Extended Thinking, o1-o3 e Budget de Tokens|1.1.3.1. Modelos de Raciocínio — Extended Thinking, o1-o3 e Budget de Tokens]]
 
 ### 1.2 Engenharia de Prompts Avançada
 - **1.2.1. Técnicas de Raciocínio (Reasoning)**
-  - [ ] 1.2.1.1. Few-shot Prompting, Chain-of-Thought (CoT) e Self-Consistency.
-  - [ ] 1.2.1.2. Tree of Thought (ToT) e Meta-Prompting.
+  - [x] [[14. Inteligência Artificial e Machine Learning/AI Engineering (Engenharia Aplicada)/1. Fundamentos de LLM e Unidades de Controle/1.2 Engenharia de Prompts Avançada/1.2.1. Técnicas de Raciocínio (Reasoning)/1.2.1.1. Few-shot, Chain-of-Thought e Self-Consistency|1.2.1.1. Few-shot, Chain-of-Thought e Self-Consistency]]
+  - [x] [[14. Inteligência Artificial e Machine Learning/AI Engineering (Engenharia Aplicada)/1. Fundamentos de LLM e Unidades de Controle/1.2 Engenharia de Prompts Avançada/1.2.1. Técnicas de Raciocínio (Reasoning)/1.2.1.2. Tree of Thought e Meta-Prompting|1.2.1.2. Tree of Thought e Meta-Prompting]]
 - **1.2.2. Structured Outputs**
-  - [ ] 1.2.2.1. Mecânica de JSON estrito, validação com Pydantic/Zod, e Constrained Decoding (Outlines, Guidance).
+  - [x] [[14. Inteligência Artificial e Machine Learning/AI Engineering (Engenharia Aplicada)/1. Fundamentos de LLM e Unidades de Controle/1.2 Engenharia de Prompts Avançada/1.2.2. Structured Outputs/1.2.2.1. Structured Outputs — JSON Estrito, Pydantic-Zod e Constrained Decoding|1.2.2.1. Structured Outputs — JSON Estrito, Pydantic-Zod e Constrained Decoding]]
 
 ---
 
@@ -58,28 +58,28 @@
 
 ### 2.1 Ingestão e Processamento (Pipeline de Dados)
 - **2.1.1. Chunking Strategies**
-  - [ ] 2.1.1.1. Fixed-size vs Recursive Chunking, Semantic Chunking e Late Chunking.
-  - [ ] 2.1.1.2. Propositional Chunking, Parent-Child Chunking e estratégias de indexação de metadados.
+  - [x] [[14. Inteligência Artificial e Machine Learning/AI Engineering (Engenharia Aplicada)/2. Retrieval-Augmented Generation (RAG) Avançado/2.1 Ingestão e Processamento (Pipeline de Dados)/2.1.1. Chunking Strategies/2.1.1.1. Chunking — Fixed-size, Recursive, Semantic e Late Chunking|2.1.1.1. Chunking — Fixed-size, Recursive, Semantic e Late Chunking]]
+  - [x] [[14. Inteligência Artificial e Machine Learning/AI Engineering (Engenharia Aplicada)/2. Retrieval-Augmented Generation (RAG) Avançado/2.1 Ingestão e Processamento (Pipeline de Dados)/2.1.1. Chunking Strategies/2.1.1.2. Chunking Avançado — Propositional, Parent-Child e Indexação de Metadados|2.1.1.2. Chunking Avançado — Propositional, Parent-Child e Indexação de Metadados]]
 - **2.1.2. Embeddings e Bancos Vetoriais**
-  - [ ] 2.1.2.1. Modelos de embedding modernos e Dimensionalidade/Matryoshka Embeddings.
-  - [ ] 2.1.2.2. Embeddings multimodais (CLIP) e o papel dos Vector Databases.
+  - [x] [[14. Inteligência Artificial e Machine Learning/AI Engineering (Engenharia Aplicada)/2. Retrieval-Augmented Generation (RAG) Avançado/2.1 Ingestão e Processamento (Pipeline de Dados)/2.1.2. Embeddings e Bancos Vetoriais/2.1.2.1. Modelos de Embedding Modernos e Matryoshka|2.1.2.1. Modelos de Embedding Modernos e Matryoshka]]
+  - [x] [[14. Inteligência Artificial e Machine Learning/AI Engineering (Engenharia Aplicada)/2. Retrieval-Augmented Generation (RAG) Avançado/2.1 Ingestão e Processamento (Pipeline de Dados)/2.1.2. Embeddings e Bancos Vetoriais/2.1.2.2. Embeddings Multimodais (CLIP) e Bancos Vetoriais|2.1.2.2. Embeddings Multimodais (CLIP) e Bancos Vetoriais]]
 - **2.1.3. Algoritmos de Busca Aproximada (ANN)**
-  - [ ] 2.1.3.1. HNSW, IVF e Product Quantization — como bancos vetoriais buscam em milhões de vetores rapidamente.
+  - [x] [[14. Inteligência Artificial e Machine Learning/AI Engineering (Engenharia Aplicada)/2. Retrieval-Augmented Generation (RAG) Avançado/2.1 Ingestão e Processamento (Pipeline de Dados)/2.1.3. Algoritmos de Busca Aproximada (ANN)/2.1.3.1. HNSW, IVF e Product Quantization|2.1.3.1. HNSW, IVF e Product Quantization]]
 
 ### 2.2 RAG de Próxima Geração (Retrieval Otimizado)
 - **2.2.1. Técnicas de Busca e Refinamento**
-  - [ ] 2.2.1.1. Hybrid Search (BM25 + vetorial com RRF) e Self-Querying.
-  - [ ] 2.2.1.2. Reranking com Cross-Encoder, GraphRAG e Small-to-Big Retrieval.
+  - [x] [[14. Inteligência Artificial e Machine Learning/AI Engineering (Engenharia Aplicada)/2. Retrieval-Augmented Generation (RAG) Avançado/2.2 RAG de Próxima Geração (Retrieval Otimizado)/2.2.1. Técnicas de Busca e Refinamento/2.2.1.1. Hybrid Search (BM25 + Vetorial com RRF) e Self-Querying|2.2.1.1. Hybrid Search (BM25 + Vetorial com RRF) e Self-Querying]]
+  - [x] [[14. Inteligência Artificial e Machine Learning/AI Engineering (Engenharia Aplicada)/2. Retrieval-Augmented Generation (RAG) Avançado/2.2 RAG de Próxima Geração (Retrieval Otimizado)/2.2.1. Técnicas de Busca e Refinamento/2.2.1.2. Reranking com Cross-Encoder, GraphRAG e Small-to-Big Retrieval|2.2.1.2. Reranking com Cross-Encoder, GraphRAG e Small-to-Big Retrieval]]
 - **2.2.2. Query Transformation**
-  - [ ] 2.2.2.1. HyDE, Multi-Query Retrieval e Step-Back Prompting.
+  - [x] [[14. Inteligência Artificial e Machine Learning/AI Engineering (Engenharia Aplicada)/2. Retrieval-Augmented Generation (RAG) Avançado/2.2 RAG de Próxima Geração (Retrieval Otimizado)/2.2.2. Query Transformation/2.2.2.1. HyDE, Multi-Query Retrieval e Step-Back Prompting|2.2.2.1. HyDE, Multi-Query Retrieval e Step-Back Prompting]]
 
 ### 2.3 Extração de Dados — Ferramentas Detalhadas
 - **2.3.1. Web Crawling e Scraping para RAG**
-  - [ ] 2.3.1.1. Crawl4AI, FireCrawl e Scrape GraphAI — quando usar cada ferramenta de coleta web.
+  - [x] [[14. Inteligência Artificial e Machine Learning/AI Engineering (Engenharia Aplicada)/2. Retrieval-Augmented Generation (RAG) Avançado/2.3 Extração de Dados — Ferramentas Detalhadas/2.3.1. Web Crawling e Scraping para RAG/2.3.1.1. Crawl4AI, FireCrawl e Scrape GraphAI|2.3.1.1. Crawl4AI, FireCrawl e Scrape GraphAI]]
 - **2.3.2. Parsers de Documentos para RAG**
-  - [ ] 2.3.2.1. MegaParser, Docling, LlamaParse e Extract Thinker — quando usar cada parser de documentos.
+  - [x] [[14. Inteligência Artificial e Machine Learning/AI Engineering (Engenharia Aplicada)/2. Retrieval-Augmented Generation (RAG) Avançado/2.3 Extração de Dados — Ferramentas Detalhadas/2.3.2. Parsers de Documentos para RAG/2.3.2.1. MegaParser, Docling, LlamaParse e Extract Thinker|2.3.2.1. MegaParser, Docling, LlamaParse e Extract Thinker]]
 - **2.3.3. Comparativo de Ferramentas de Extração**
-  - [ ] 2.3.3.1. Tabela de decisão consolidada: qual ferramenta de extração usar para cada tipo de necessidade.
+  - [x] [[14. Inteligência Artificial e Machine Learning/AI Engineering (Engenharia Aplicada)/2. Retrieval-Augmented Generation (RAG) Avançado/2.3 Extração de Dados — Ferramentas Detalhadas/2.3.3. Comparativo de Ferramentas de Extração/2.3.3.1. Tabela de Decisão Consolidada — Qual Ferramenta de Extração Usar|2.3.3.1. Tabela de Decisão Consolidada — Qual Ferramenta de Extração Usar]]
 
 ---
 
@@ -87,11 +87,11 @@
 
 ### 3.1 Estratégias de Embedding para Produção
 - **3.1.1. Modelos e Benchmarks**
-  - [ ] 3.1.1.1. O benchmark MTEB, modelos soberanos/locais, e embeddings especializados por domínio.
+  - [x] [[14. Inteligência Artificial e Machine Learning/AI Engineering (Engenharia Aplicada)/3. Embeddings — Tópicos Avançados/3.1 Estratégias de Embedding para Produção/3.1.1. Modelos e Benchmarks/3.1.1.1. MTEB, Modelos Soberanos-Locais e Embeddings por Domínio|3.1.1.1. MTEB, Modelos Soberanos-Locais e Embeddings por Domínio]]
 - **3.1.2. Estratégias de Fine-tuning de Embeddings**
-  - [ ] 3.1.2.1. Geração de pares sintéticos, Contrastive Learning (triplet loss) e Asymmetric Embedding.
+  - [x] [[14. Inteligência Artificial e Machine Learning/AI Engineering (Engenharia Aplicada)/3. Embeddings — Tópicos Avançados/3.1 Estratégias de Embedding para Produção/3.1.2. Estratégias de Fine-tuning de Embeddings/3.1.2.1. Fine-tuning de Embeddings — Pares Sintéticos, Contrastive Learning e Asymmetric Embedding|3.1.2.1. Fine-tuning de Embeddings — Pares Sintéticos, Contrastive Learning e Asymmetric Embedding]]
 - **3.1.3. Embedding de Dados Estruturados**
-  - [ ] 3.1.3.1. Embeddings de tabelas/SQL (TURL, DITTO) e de código-fonte (CodeBERT, UniXcoder).
+  - [x] [[14. Inteligência Artificial e Machine Learning/AI Engineering (Engenharia Aplicada)/3. Embeddings — Tópicos Avançados/3.1 Estratégias de Embedding para Produção/3.1.3. Embedding de Dados Estruturados/3.1.3.1. Embeddings de Tabelas, SQL e Código-Fonte|3.1.3.1. Embeddings de Tabelas, SQL e Código-Fonte]]
 
 ---
 
@@ -99,36 +99,36 @@
 
 ### 4.1 Padrões de Autonomia (Agentic Workflows)
 - **4.1.1. Raciocínio e Planejamento**
-  - [ ] 4.1.1.1. ReAct Pattern, Plan-and-Execute e LATS (Language Agent Tree Search).
+  - [x] [[14. Inteligência Artificial e Machine Learning/AI Engineering (Engenharia Aplicada)/4. Orquestração e Frameworks de Agentes/4.1 Padrões de Autonomia (Agentic Workflows)/4.1.1. Raciocínio e Planejamento/4.1.1.1. ReAct, Plan-and-Execute e LATS|4.1.1.1. ReAct, Plan-and-Execute e LATS]]
 - **4.1.2. Protocolos de Comunicação de Agentes**
-  - [ ] 4.1.2.1. MCP (Model Context Protocol), A2A (Agent-to-Agent) e OpenAI Responses API.
+  - [x] [[14. Inteligência Artificial e Machine Learning/AI Engineering (Engenharia Aplicada)/4. Orquestração e Frameworks de Agentes/4.1 Padrões de Autonomia (Agentic Workflows)/4.1.2. Protocolos de Comunicação de Agentes/4.1.2.1. MCP, A2A e OpenAI Responses API|4.1.2.1. MCP, A2A e OpenAI Responses API]]
 
 ### 4.2 Frameworks, Estado e Memória
 - **4.2.1. Frameworks de Mercado**
-  - [ ] 4.2.1.1. LangChain/LlamaIndex (iniciante) e LangGraph (produção, grafos cíclicos).
-  - [ ] 4.2.1.2. CrewAI/AutoGen (multi-agente), smolagents e Pydantic AI.
+  - [x] [[14. Inteligência Artificial e Machine Learning/AI Engineering (Engenharia Aplicada)/4. Orquestração e Frameworks de Agentes/4.2 Frameworks, Estado e Memória/4.2.1. Frameworks de Mercado/4.2.1.1. LangChain, LlamaIndex e LangGraph|4.2.1.1. LangChain, LlamaIndex e LangGraph]]
+  - [x] [[14. Inteligência Artificial e Machine Learning/AI Engineering (Engenharia Aplicada)/4. Orquestração e Frameworks de Agentes/4.2 Frameworks, Estado e Memória/4.2.1. Frameworks de Mercado/4.2.1.2. CrewAI, AutoGen, smolagents e Pydantic AI|4.2.1.2. CrewAI, AutoGen, smolagents e Pydantic AI]]
 - **4.2.2. Gestão de Memória e Human-in-the-Loop**
-  - [ ] 4.2.2.1. Memória de curto vs longo prazo (Mem0, Zep), HITL e MemoryOS.
+  - [x] [[14. Inteligência Artificial e Machine Learning/AI Engineering (Engenharia Aplicada)/4. Orquestração e Frameworks de Agentes/4.2 Frameworks, Estado e Memória/4.2.2. Gestão de Memória e Human-in-the-Loop/4.2.2.1. Memória de Agentes, HITL e MemoryOS|4.2.2.1. Memória de Agentes, HITL e MemoryOS]]
 
 ### 4.3 Loop Engineering — Do Prompt ao Sistema Autônomo
 - **4.3.1. Definição e Motivação**
-  - [ ] 4.3.1.1. O que é Loop Engineering, a diferença para Prompt Engineering, e por que emergiu em 2026.
+  - [x] [[14. Inteligência Artificial e Machine Learning/AI Engineering (Engenharia Aplicada)/4. Orquestração e Frameworks de Agentes/4.3 Loop Engineering — Do Prompt ao Sistema Autônomo/4.3.1. Definição e Motivação/4.3.1.1. O Que É Loop Engineering e Por Que Emergiu|4.3.1.1. O Que É Loop Engineering e Por Que Emergiu]]
 - **4.3.2. Os Quatro Componentes de um Loop Confiável**
-  - [ ] 4.3.2.1. Trigger, Goal Verificável, Verifier e Stop Rules.
+  - [x] [[14. Inteligência Artificial e Machine Learning/AI Engineering (Engenharia Aplicada)/4. Orquestração e Frameworks de Agentes/4.3 Loop Engineering — Do Prompt ao Sistema Autônomo/4.3.2. Os Quatro Componentes de um Loop Confiável/4.3.2.1. Trigger, Goal Verificável, Verifier e Stop Rules|4.3.2.1. Trigger, Goal Verificável, Verifier e Stop Rules]]
 - **4.3.3. Blocos de Construção de Loops em Produção**
-  - [ ] 4.3.3.1. Automations, Worktrees, Skills, Plugins/Connectors, Sub-agentes, e boas práticas.
+  - [x] [[14. Inteligência Artificial e Machine Learning/AI Engineering (Engenharia Aplicada)/4. Orquestração e Frameworks de Agentes/4.3 Loop Engineering — Do Prompt ao Sistema Autônomo/4.3.3. Blocos de Construção de Loops em Produção/4.3.3.1. Automations, Worktrees, Skills, Plugins e Sub-agentes|4.3.3.1. Automations, Worktrees, Skills, Plugins e Sub-agentes]]
 
 ### 4.4 Graph Engineering — A Topologia da Orquestração Multi-Agente
 - **4.4.1. Definição e Motivação**
-  - [ ] 4.4.1.1. O que é Graph Engineering e a diferença em relação a Knowledge Graphs.
+  - [x] [[14. Inteligência Artificial e Machine Learning/AI Engineering (Engenharia Aplicada)/4. Orquestração e Frameworks de Agentes/4.4 Graph Engineering — A Topologia da Orquestração Multi-Agente/4.4.1. Definição e Motivação/4.4.1.1. O Que É Graph Engineering e a Diferença para Knowledge Graphs|4.4.1.1. O Que É Graph Engineering e a Diferença para Knowledge Graphs]]
 - **4.4.2. Componentes de um Grafo de Agentes**
-  - [ ] 4.4.2.1. Nodes, Edges, State e Conditional Routing.
+  - [x] [[14. Inteligência Artificial e Machine Learning/AI Engineering (Engenharia Aplicada)/4. Orquestração e Frameworks de Agentes/4.4 Graph Engineering — A Topologia da Orquestração Multi-Agente/4.4.2. Componentes de um Grafo de Agentes/4.4.2.1. Nodes, Edges, State e Conditional Routing|4.4.2.1. Nodes, Edges, State e Conditional Routing]]
 - **4.4.3. Padrão Prático — Ciclo Avaliador-Otimizador**
-  - [ ] 4.4.3.1. O fluxo Planner → Researcher → Writer → Evaluator com loop de revisão condicional.
+  - [x] [[14. Inteligência Artificial e Machine Learning/AI Engineering (Engenharia Aplicada)/4. Orquestração e Frameworks de Agentes/4.4 Graph Engineering — A Topologia da Orquestração Multi-Agente/4.4.3. Padrão Prático — Ciclo Avaliador-Otimizador/4.4.3.1. O Fluxo Planner, Researcher, Writer e Evaluator com Loop de Revisão|4.4.3.1. O Fluxo Planner, Researcher, Writer e Evaluator com Loop de Revisão]]
 - **4.4.4. Governança, Custo e Observabilidade em Produção**
-  - [ ] 4.4.4.1. Identidade por nó, controle de custo (fan-out/retries) e observabilidade de topologia em runtime.
+  - [x] [[14. Inteligência Artificial e Machine Learning/AI Engineering (Engenharia Aplicada)/4. Orquestração e Frameworks de Agentes/4.4 Graph Engineering — A Topologia da Orquestração Multi-Agente/4.4.4. Governança, Custo e Observabilidade em Produção/4.4.4.1. Identidade por Nó, Controle de Custo e Observabilidade de Topologia|4.4.4.1. Identidade por Nó, Controle de Custo e Observabilidade de Topologia]]
 - **4.4.5. Loop Engineering vs Graph Engineering**
-  - [ ] 4.4.5.1. Tabela comparativa das duas disciplinas e como elas se complementam.
+  - [x] [[14. Inteligência Artificial e Machine Learning/AI Engineering (Engenharia Aplicada)/4. Orquestração e Frameworks de Agentes/4.4 Graph Engineering — A Topologia da Orquestração Multi-Agente/4.4.5. Loop Engineering vs Graph Engineering/4.4.5.1. Comparativo Loop Engineering e Graph Engineering — Camadas Complementares|4.4.5.1. Comparativo Loop Engineering e Graph Engineering — Camadas Complementares]]
 
 ---
 
@@ -136,11 +136,11 @@
 
 ### 5.1 Invocações e Segurança
 - **5.1.1. Function Calling**
-  - [ ] 5.1.1.1. Como o LLM invoca ferramentas via JSON, e Parallel Tool Calling.
+  - [x] [[14. Inteligência Artificial e Machine Learning/AI Engineering (Engenharia Aplicada)/5. Ferramentas (Tool Calling) e Interação com o Mundo/5.1 Invocações e Segurança/5.1.1. Function Calling/5.1.1.1. Function Calling — Como o LLM Invoca Ferramentas e Parallel Tool Calling|5.1.1.1. Function Calling — Como o LLM Invoca Ferramentas e Parallel Tool Calling]]
 - **5.1.2. Computer Use e Multimodal Agents**
-  - [ ] 5.1.2.1. Computer Use (Claude), Browser Use (Playwright) e Voice Agents (Speech-to-Speech).
+  - [x] [[14. Inteligência Artificial e Machine Learning/AI Engineering (Engenharia Aplicada)/5. Ferramentas (Tool Calling) e Interação com o Mundo/5.1 Invocações e Segurança/5.1.2. Computer Use e Multimodal Agents/5.1.2.1. Computer Use, Browser Use e Voice Agents|5.1.2.1. Computer Use, Browser Use e Voice Agents]]
 - **5.1.3. Sandboxing e Execução de Código**
-  - [ ] 5.1.3.1. Riscos de RCE e isolamento via Docker, WebAssembly ou E2B.
+  - [x] [[14. Inteligência Artificial e Machine Learning/AI Engineering (Engenharia Aplicada)/5. Ferramentas (Tool Calling) e Interação com o Mundo/5.1 Invocações e Segurança/5.1.3. Sandboxing e Execução de Código/5.1.3.1. Sandboxing e Execução de Código — Riscos de RCE e Isolamento|5.1.3.1. Sandboxing e Execução de Código — Riscos de RCE e Isolamento]]
 
 ---
 
@@ -148,11 +148,11 @@
 
 ### 6.1 Técnicas de Fine-Tuning
 - **6.1.1. Full Fine-Tuning vs Parameter-Efficient**
-  - [ ] 6.1.1.1. Full Fine-Tuning, LoRA, QLoRA e DoRA.
+  - [x] [[14. Inteligência Artificial e Machine Learning/AI Engineering (Engenharia Aplicada)/6. Fine-Tuning e Adaptação de Modelos/6.1 Técnicas de Fine-Tuning/6.1.1. Full Fine-Tuning vs Parameter-Efficient/6.1.1.1. Full Fine-Tuning, LoRA, QLoRA e DoRA|6.1.1.1. Full Fine-Tuning, LoRA, QLoRA e DoRA]]
 - **6.1.2. Alinhamento e RLHF**
-  - [ ] 6.1.2.1. RLHF clássico, DPO e as variantes ORPO/SimPO.
+  - [x] [[14. Inteligência Artificial e Machine Learning/AI Engineering (Engenharia Aplicada)/6. Fine-Tuning e Adaptação de Modelos/6.1 Técnicas de Fine-Tuning/6.1.2. Alinhamento e RLHF/6.1.2.1. RLHF Clássico, DPO e as Variantes ORPO e SimPO|6.1.2.1. RLHF Clássico, DPO e as Variantes ORPO e SimPO]]
 - **6.1.3. Dados para Fine-Tuning**
-  - [ ] 6.1.3.1. Dados sintéticos, Data Curation vs Data Volume, e quando NÃO usar fine-tuning (vs RAG).
+  - [x] [[14. Inteligência Artificial e Machine Learning/AI Engineering (Engenharia Aplicada)/6. Fine-Tuning e Adaptação de Modelos/6.1 Técnicas de Fine-Tuning/6.1.3. Dados para Fine-Tuning/6.1.3.1. Dados Sintéticos, Curadoria vs Volume e Quando NÃO Usar Fine-Tuning|6.1.3.1. Dados Sintéticos, Curadoria vs Volume e Quando NÃO Usar Fine-Tuning]]
 
 ---
 
@@ -160,18 +160,18 @@
 
 ### 7.1 Operacionalizando IA no Back-end
 - **7.1.1. Observabilidade (Rastreio e Custos)**
-  - [ ] 7.1.1.1. O problema da caixa preta, Tracing (LangSmith/Langfuse/Arize) e OpenTelemetry para LLMs.
+  - [x] [[14. Inteligência Artificial e Machine Learning/AI Engineering (Engenharia Aplicada)/7. LLMOps, Observabilidade e Governança/7.1 Operacionalizando IA no Back-end/7.1.1. Observabilidade (Rastreio e Custos)/7.1.1.1. Observabilidade de LLMs — Caixa Preta, Tracing e OpenTelemetry|7.1.1.1. Observabilidade de LLMs — Caixa Preta, Tracing e OpenTelemetry]]
 - **7.1.2. Evaluation Harness (Avaliação Sistemática)**
-  - [ ] 7.1.2.1. O que é um Eval Harness, e as ferramentas Ragas, DeepEval e Giskard.
-  - [ ] 7.1.2.2. inspect_ai, PromptFoo, LLM-as-a-Judge e Golden Dataset/Regression Testing.
+  - [x] [[14. Inteligência Artificial e Machine Learning/AI Engineering (Engenharia Aplicada)/7. LLMOps, Observabilidade e Governança/7.1 Operacionalizando IA no Back-end/7.1.2. Evaluation Harness (Avaliação Sistemática)/7.1.2.1. Eval Harness — Conceito e Ferramentas Ragas, DeepEval e Giskard|7.1.2.1. Eval Harness — Conceito e Ferramentas Ragas, DeepEval e Giskard]]
+  - [x] [[14. Inteligência Artificial e Machine Learning/AI Engineering (Engenharia Aplicada)/7. LLMOps, Observabilidade e Governança/7.1 Operacionalizando IA no Back-end/7.1.2. Evaluation Harness (Avaliação Sistemática)/7.1.2.2. inspect_ai, PromptFoo, LLM-as-a-Judge e Golden Dataset|7.1.2.2. inspect_ai, PromptFoo, LLM-as-a-Judge e Golden Dataset]]
 - **7.1.3. LLM Routing e Cascading**
-  - [ ] 7.1.3.1. Roteamento por complexidade (RouteLLM/LiteLLM) e Cascading de modelos.
+  - [x] [[14. Inteligência Artificial e Machine Learning/AI Engineering (Engenharia Aplicada)/7. LLMOps, Observabilidade e Governança/7.1 Operacionalizando IA no Back-end/7.1.3. LLM Routing e Cascading/7.1.3.1. LLM Routing e Cascading de Modelos|7.1.3.1. LLM Routing e Cascading de Modelos]]
 - **7.1.4. AI Guardrails**
-  - [ ] 7.1.4.1. Camada interceptadora (NeMo Guardrails, Llama Guard) e detecção de Prompt Injection.
+  - [x] [[14. Inteligência Artificial e Machine Learning/AI Engineering (Engenharia Aplicada)/7. LLMOps, Observabilidade e Governança/7.1 Operacionalizando IA no Back-end/7.1.4. AI Guardrails/7.1.4.1. AI Guardrails — NeMo Guardrails, Llama Guard e Prompt Injection|7.1.4.1. AI Guardrails — NeMo Guardrails, Llama Guard e Prompt Injection]]
 
 ### 7.2 Infraestrutura de Inferência
 - **7.2.1. Serving e Otimização**
-  - [ ] 7.2.1.1. vLLM/PagedAttention, Speculative Decoding, Quantização (GPTQ/GGUF/AWQ) e deploy local.
+  - [x] [[14. Inteligência Artificial e Machine Learning/AI Engineering (Engenharia Aplicada)/7. LLMOps, Observabilidade e Governança/7.2 Infraestrutura de Inferência/7.2.1. Serving e Otimização/7.2.1.1. Serving e Otimização — vLLM, Speculative Decoding, Quantização e Deploy Local|7.2.1.1. Serving e Otimização — vLLM, Speculative Decoding, Quantização e Deploy Local]]
 
 ---
 
@@ -179,10 +179,10 @@
 
 ### 8.1 Especificação do Sistema Multi-Agente
 - **8.1.1. O Desafio**
-  - [ ] 8.1.1.1. A especificação do sistema: API de orquestração que transforma requisito de negócio em esqueleto de MVP.
+  - [x] [[14. Inteligência Artificial e Machine Learning/AI Engineering (Engenharia Aplicada)/8. Projeto Prático Nexus Architect/8.1 Especificação do Sistema Multi-Agente/8.1.1. O Desafio/8.1.1.1. A Especificação do Sistema — API de Orquestração do Requisito ao MVP|8.1.1.1. A Especificação do Sistema — API de Orquestração do Requisito ao MVP]]
 - **8.1.2. A Topologia do CrewAI/LangGraph**
-  - [ ] 8.1.2.1. Agente Analista (Supervisor) e Agente de Infra (DB Specialist).
-  - [ ] 8.1.2.2. Agente de Backend, Agente de Frontend e o Eval Harness do projeto.
+  - [x] [[14. Inteligência Artificial e Machine Learning/AI Engineering (Engenharia Aplicada)/8. Projeto Prático Nexus Architect/8.1 Especificação do Sistema Multi-Agente/8.1.2. A Topologia do CrewAI-LangGraph/8.1.2.1. Agente Analista (Supervisor) e Agente de Infra (DB Specialist)|8.1.2.1. Agente Analista (Supervisor) e Agente de Infra (DB Specialist)]]
+  - [x] [[14. Inteligência Artificial e Machine Learning/AI Engineering (Engenharia Aplicada)/8. Projeto Prático Nexus Architect/8.1 Especificação do Sistema Multi-Agente/8.1.2. A Topologia do CrewAI-LangGraph/8.1.2.2. Agentes de Backend e Frontend e o Eval Harness do Projeto|8.1.2.2. Agentes de Backend e Frontend e o Eval Harness do Projeto]]
 
 ---
 
@@ -190,21 +190,21 @@
 
 ### 9.1 Multimodalidade e Novos Paradigmas
 - **9.1.1. RAG Multimodal**
-  - [ ] 9.1.1.1. Indexação e recuperação de imagens, tabelas, áudio e vídeo sem OCR pré-processado.
+  - [x] [[14. Inteligência Artificial e Machine Learning/AI Engineering (Engenharia Aplicada)/9. Fronteiras e Tópicos Emergentes/9.1 Multimodalidade e Novos Paradigmas/9.1.1. RAG Multimodal/9.1.1.1. RAG Multimodal — Imagens, Tabelas, Áudio e Vídeo sem OCR|9.1.1.1. RAG Multimodal — Imagens, Tabelas, Áudio e Vídeo sem OCR]]
 - **9.1.2. Mixture of Experts (MoE)**
-  - [ ] 9.1.2.1. Como o roteamento de especialistas por token reduz custo de inferência.
+  - [x] [[14. Inteligência Artificial e Machine Learning/AI Engineering (Engenharia Aplicada)/9. Fronteiras e Tópicos Emergentes/9.1 Multimodalidade e Novos Paradigmas/9.1.2. Mixture of Experts (MoE)/9.1.2.1. Mixture of Experts — Roteamento de Especialistas e Custo de Inferência|9.1.2.1. Mixture of Experts — Roteamento de Especialistas e Custo de Inferência]]
 - **9.1.3. Small Language Models (SLMs) para Edge**
-  - [ ] 9.1.3.1. Modelos pequenos (Phi, Gemma, Llama) como alternativa a APIs na nuvem.
+  - [x] [[14. Inteligência Artificial e Machine Learning/AI Engineering (Engenharia Aplicada)/9. Fronteiras e Tópicos Emergentes/9.1 Multimodalidade e Novos Paradigmas/9.1.3. Small Language Models (SLMs) para Edge/9.1.3.1. Small Language Models — Phi, Gemma e Llama como Alternativa às APIs|9.1.3.1. Small Language Models — Phi, Gemma e Llama como Alternativa às APIs]]
 - **9.1.4. Model Distillation**
-  - [ ] 9.1.4.1. Como um modelo "student" aprende a imitar um modelo "teacher" maior.
+  - [x] [[14. Inteligência Artificial e Machine Learning/AI Engineering (Engenharia Aplicada)/9. Fronteiras e Tópicos Emergentes/9.1 Multimodalidade e Novos Paradigmas/9.1.4. Model Distillation/9.1.4.1. Model Distillation — Como um Student Aprende a Imitar um Teacher|9.1.4.1. Model Distillation — Como um Student Aprende a Imitar um Teacher]]
 
 ### 9.2 Segurança e Alinhamento
 - **9.2.1. Prompt Injection**
-  - [ ] 9.2.1.1. Como conteúdo externo injeta instruções em um agente, e a defesa por separação de canais.
+  - [x] [[14. Inteligência Artificial e Machine Learning/AI Engineering (Engenharia Aplicada)/9. Fronteiras e Tópicos Emergentes/9.2 Segurança e Alinhamento/9.2.1. Prompt Injection/9.2.1.1. Prompt Injection — Como Conteúdo Externo Injeta Instruções e a Defesa por Separação de Canais|9.2.1.1. Prompt Injection — Como Conteúdo Externo Injeta Instruções e a Defesa por Separação de Canais]]
 - **9.2.2. Constitutional AI**
-  - [ ] 9.2.2.1. Princípios de auto-revisão do modelo durante treinamento RLAIF.
+  - [x] [[14. Inteligência Artificial e Machine Learning/AI Engineering (Engenharia Aplicada)/9. Fronteiras e Tópicos Emergentes/9.2 Segurança e Alinhamento/9.2.2. Constitutional AI/9.2.2.1. Constitutional AI — Auto-revisão por Princípios e RLAIF|9.2.2.1. Constitutional AI — Auto-revisão por Princípios e RLAIF]]
 - **9.2.3. Red Teaming Automatizado**
-  - [ ] 9.2.3.1. Ferramentas como `garak` para automatizar testes de jailbreak e vulnerabilidade.
+  - [x] [[14. Inteligência Artificial e Machine Learning/AI Engineering (Engenharia Aplicada)/9. Fronteiras e Tópicos Emergentes/9.2 Segurança e Alinhamento/9.2.3. Red Teaming Automatizado/9.2.3.1. Red Teaming Automatizado — garak e Ferramentas de Teste de Jailbreak|9.2.3.1. Red Teaming Automatizado — garak e Ferramentas de Teste de Jailbreak]]
 
 ---
 
