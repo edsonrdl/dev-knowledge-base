@@ -560,7 +560,7 @@
 - [ ] [[14. Inteligência Artificial e Machine Learning/Supervisão Humana — HITL, HOTL e HIC/0 Supervisão Humana — HITL, HOTL e HIC (Glossário )|Supervisão Humana — HITL, HOTL e HIC]]
 - [ ] [[14. Inteligência Artificial e Machine Learning/Memória de Agentes (Mem0, Zep, MemoryOS)/0 Memória de Agentes (Mem0, Zep, MemoryOS) (Glossário )|Memória de Agentes (Mem0, Zep, MemoryOS)]]
 - [ ] [[14. Inteligência Artificial e Machine Learning/LLMOps e Governança/0 LLMOps e Governança (Glossário )|LLMOps e Governança]]
-- [ ] [[14. Inteligência Artificial e Machine Learning/Spec-Driven Development (SDD)/0 Spec-Driven Development (SDD) (Glossário )|Spec-Driven Development (SDD)]]
+- [x] [[14. Inteligência Artificial e Machine Learning/Spec-Driven Development (SDD)/0 Spec-Driven Development (SDD) (Glossário )|Spec-Driven Development (SDD)]]
 - [ ] [[14. Inteligência Artificial e Machine Learning/Guardrails e Segurança de IA/0 Guardrails e Segurança de IA (Glossário )|Guardrails e Segurança de IA]]
 - [ ] [[14. Inteligência Artificial e Machine Learning/Infraestrutura de Inferência — vLLM, Quantização, Routing/0 Infraestrutura de Inferência — vLLM, Quantização, Routing (Glossário )|Infraestrutura de Inferência — vLLM, Quantização, Routing]]
 
@@ -579,7 +579,7 @@
 - [ ] [[14. Inteligência Artificial e Machine Learning/LGPD Aplicada a Sistemas de IA/0 LGPD Aplicada a Sistemas de IA (Glossário )|LGPD Aplicada a Sistemas de IA]]
 - [ ] [[14. Inteligência Artificial e Machine Learning/Modelo de Maturidade de Governança de IA/0 Modelo de Maturidade de Governança de IA (Glossário )|Modelo de Maturidade de Governança de IA]]
 
-### Fundamentos Clássicos (Data Science)
+#  ## Fundamentos Clássicos (Data Science)
 
 - [ ] [[14. Inteligência Artificial e Machine Learning/Redes Neurais e Deep Learning/0 Redes Neurais e Deep Learning (Glossário )|Redes Neurais e Deep Learning]]
 - [ ] [[14. Inteligência Artificial e Machine Learning/Visão Computacional (Fundamentos)/0 Visão Computacional (Glossário )|Visão Computacional]]
