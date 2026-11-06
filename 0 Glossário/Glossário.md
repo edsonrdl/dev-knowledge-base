@@ -567,7 +567,7 @@
 - [ ] [[14. Inteligência Artificial e Machine Learning/LLMOps e Governança/0 LLMOps e Governança (Glossário )|LLMOps e Governança]]
 - [x] [[14. Inteligência Artificial e Machine Learning/Spec-Driven Development (SDD)/0 Spec-Driven Development (SDD) (Glossário )|Spec-Driven Development (SDD)]]
 - [ ] [[14. Inteligência Artificial e Machine Learning/IA Aplicada ao Desenvolvimento de Software/0 IA Aplicada ao Desenvolvimento de Software (Glossário )|IA Aplicada ao Desenvolvimento de Software]]
-- [ ] [[14. Inteligência Artificial e Machine Learning/Panorama de Modelos de IA e Escolha por Tarefa/0 Panorama de Modelos de IA e Escolha por Tarefa (Glossário )|Panorama de Modelos de IA e Escolha por Tarefa]]
+- [x] [[14. Inteligência Artificial e Machine Learning/Panorama de Modelos de IA e Escolha por Tarefa/0 Panorama de Modelos de IA e Escolha por Tarefa (Glossário )|Panorama de Modelos de IA e Escolha por Tarefa]]
 - [ ] [[14. Inteligência Artificial e Machine Learning/Guardrails e Segurança de IA/0 Guardrails e Segurança de IA (Glossário )|Guardrails e Segurança de IA]]
 - [ ] [[14. Inteligência Artificial e Machine Learning/Infraestrutura de Inferência — vLLM, Quantização, Routing/0 Infraestrutura de Inferência — vLLM, Quantização, Routing (Glossário )|Infraestrutura de Inferência — vLLM, Quantização, Routing]]
 
