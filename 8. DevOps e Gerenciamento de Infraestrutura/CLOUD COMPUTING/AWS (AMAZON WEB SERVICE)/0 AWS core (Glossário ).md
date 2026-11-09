@@ -119,9 +119,9 @@ O objetivo deste material é ir além da superfície e entender como os componen
   - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.2 Infraestrutura global da AWS/3.2.1. Componentes/3.2.1.5. Wavelength Zones|3.2.1.5. Wavelength Zones]]
   - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.2 Infraestrutura global da AWS/3.2.1. Componentes/3.2.1.6. AWS Outposts|3.2.1.6. AWS Outposts]]
 - **3.2.2. Benefícios**
-  - [x] [[3.2.2.1. Alta disponibilidade|3.2.2.1. Alta disponibilidade]]
-  - [x] [[3.2.2.2. Baixa latência|3.2.2.2. Baixa latência]]
-  - [x] [[3.2.2.3. Recuperação de desastres|3.2.2.3. Recuperação de desastres]]
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.2 Infraestrutura global da AWS/3.2.1. Componentes/3.2.2. Benefícios/3.2.2.1. Alta disponibilidade|3.2.2.1. Alta disponibilidade]]
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.2 Infraestrutura global da AWS/3.2.1. Componentes/3.2.2. Benefícios/3.2.2.2. Baixa latência|3.2.2.2. Baixa latência]]
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.2 Infraestrutura global da AWS/3.2.1. Componentes/3.2.2. Benefícios/3.2.2.3. Recuperação de desastres|3.2.2.3. Recuperação de desastres]]
 
 ### 3.3 Serviços principais da AWS
 - **3.3.1. Computação**
@@ -134,28 +134,28 @@ O objetivo deste material é ir além da superfície e entender como os componen
   - [ ] 3.3.1.7. AWS Batch
 - **3.3.2. Armazenamento**
   - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.2. Armazenamento/3.3.2.1. Amazon S3/0 Amazon S3 (Tópicos )|3.3.2.1. Amazon S3]]
-  - [ ] 3.3.2.2. Amazon EBS
-  - [ ] 3.3.2.3. Amazon EFS
-  - [ ] 3.3.2.4. AWS Storage Gateway
-  - [ ] 3.3.2.5. Amazon FSx
-  - [ ] 3.3.2.6. AWS Backup
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.2. Armazenamento/3.3.2.2. Amazon EBS/0 Amazon EBS (Tópicos )|3.3.2.2. Amazon EBS]]
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.2. Armazenamento/3.3.2.3. Amazon EFS/0 Amazon EFS (Tópicos )|3.3.2.3. Amazon EFS]]
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.2. Armazenamento/3.3.2.4. AWS Storage Gateway/0 AWS Storage Gateway (Tópicos )|3.3.2.4. AWS Storage Gateway]]
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.2. Armazenamento/3.3.2.5. Amazon FSx/0 Amazon FSx (Tópicos )|3.3.2.5. Amazon FSx]]
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.2. Armazenamento/3.3.2.6. AWS Backup/0 AWS Backup (Tópicos )|3.3.2.6. AWS Backup]]
 - **3.3.3. Banco de Dados**
-  - [ ] 3.3.3.1. Amazon RDS
-  - [ ] 3.3.3.2. Amazon DynamoDB
-  - [ ] 3.3.3.3. Amazon Aurora
-  - [ ] 3.3.3.4. Amazon ElastiCache
-  - [ ] 3.3.3.5. Amazon Redshift
-  - [ ] 3.3.3.6. Amazon DocumentDB
-  - [ ] 3.3.3.7. Amazon Neptune
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.3. Banco de Dados/3.3.3.1. Amazon RDS/0 Amazon RDS (Tópicos )|3.3.3.1. Amazon RDS]]
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.3. Banco de Dados/3.3.3.2. Amazon DynamoDB/0 Amazon DynamoDB (Tópicos )|3.3.3.2. Amazon DynamoDB]]
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.3. Banco de Dados/3.3.3.3. Amazon Aurora/0 Amazon Aurora (Tópicos )|3.3.3.3. Amazon Aurora]]
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.3. Banco de Dados/3.3.3.4. Amazon ElastiCache/0 Amazon ElastiCache (Tópicos )|3.3.3.4. Amazon ElastiCache]]
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.3. Banco de Dados/3.3.3.5. Amazon Redshift/0 Amazon Redshift (Tópicos )|3.3.3.5. Amazon Redshift]]
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.3. Banco de Dados/3.3.3.6. Amazon DocumentDB/0 Amazon DocumentDB (Tópicos )|3.3.3.6. Amazon DocumentDB]]
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.3. Banco de Dados/3.3.3.7. Amazon Neptune/0 Amazon Neptune (Tópicos )|3.3.3.7. Amazon Neptune]]
 - **3.3.4. Rede**
   - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.4. Rede/3.3.4.1. Amazon VPC/0 Amazon VPC (Tópicos )|3.3.4.1. Amazon VPC]]
-  - [ ] 3.3.4.2. Subnets (públicas e privadas)
-  - [ ] 3.3.4.3. Security Groups e NACLs
-  - [ ] 3.3.4.4. Internet Gateway e NAT Gateway
-  - [ ] 3.3.4.5. Amazon Route 53
-  - [ ] 3.3.4.6. Amazon CloudFront
-  - [ ] 3.3.4.7. Elastic Load Balancing
-  - [ ] 3.3.4.8. AWS Global Accelerator
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.4. Rede/3.3.4.1. Amazon VPC/2. Subnets/2.1 Tipos de Subnet/2.1.1. Públicas vs Privadas/2.1.1.1. O que realmente diferencia subnet pública de privada — é a route table, não o nome|3.3.4.2. Subnets (públicas e privadas)]]
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.4. Rede/3.3.4.1. Amazon VPC/5. Segurança de Rede/5.2 Network ACLs/5.2.1. Firewall stateless por subnet/5.2.1.2. Security Groups vs NACLs — sobreposição de camadas, compliance e padrões de uso combinado|3.3.4.3. Security Groups e NACLs]]
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.4. Rede/3.3.4.1. Amazon VPC/4. Gateways e Acesso à Internet/4.2 NAT/4.2.1. Saída de subnets privadas/4.2.1.1. NAT Gateway — arquitetura, alta disponibilidade por AZ, custo por hora e por GB processado|3.3.4.4. Internet Gateway e NAT Gateway]]
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.4. Rede/3.3.4.5. Amazon Route 53/0 Amazon Route 53 (Tópicos )|3.3.4.5. Amazon Route 53]]
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.4. Rede/3.3.4.6. Amazon CloudFront/0 Amazon CloudFront (Tópicos )|3.3.4.6. Amazon CloudFront]]
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.4. Rede/3.3.4.7. Elastic Load Balancing/0 Elastic Load Balancing (Tópicos )|3.3.4.7. Elastic Load Balancing]]
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.4. Rede/3.3.4.8. AWS Global Accelerator/0 AWS Global Accelerator (Tópicos )|3.3.4.8. AWS Global Accelerator]]
 - **3.3.5. Gerenciamento e Governança**
   - [ ] 3.3.5.1. AWS CloudWatch
   - [ ] 3.3.5.2. AWS CloudTrail

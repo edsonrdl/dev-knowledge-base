@@ -52,7 +52,7 @@
 
 ### 4.1 Internet Gateway
 - **4.1.1. Acesso bidirecional**
-  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.4. Rede/3.3.4.1. Amazon VPC/4. Gateways e Acesso à Internet/4.1 Internet Gateway/4.1.1. Acesso bidirecional/4.1.1.1. Internet Gateway — como habilita NAT 1:1, Elastic IPs e os requisitos para uma subnet ser pública|4.1.1.1. Internet Gateway — como habilita NAT 1:1, Elastic IPs e os requisitos para uma subnet ser pública]]
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.4. Rede/3.3.4.1. Amazon VPC/4. Gateways e Acesso à Internet/4.1 Internet Gateway/4.1.1. Acesso bidirecional/4.1.1.1. Internet Gateway — como habilita NAT 1-1, Elastic IPs e os requisitos para uma subnet ser pública|4.1.1.1. Internet Gateway — como habilita NAT 1-1, Elastic IPs e os requisitos para uma subnet ser pública]]
 
 ### 4.2 NAT
 - **4.2.1. Saída de subnets privadas**
