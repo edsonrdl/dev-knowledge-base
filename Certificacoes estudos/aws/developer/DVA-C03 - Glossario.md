@@ -652,3 +652,90 @@ status: completo-v1
 - [ ] D4 Otimização (concorrência, memória, cache, long polling, filter policies)
 
 *Próximo passo:* gerar questões com [[DVA-C03 - Prompts de Questoes]], domínio por domínio.
+
+---
+
+## 11. 🔗 Mapa de Estudo no Vault (só para leitura)
+
+> Para cada skill deste glossário, onde ler o **conteúdo técnico** no vault `8. DevOps.../AWS (AMAZON WEB SERVICE)/`. Os links apontam para o **sub-glossário `0 <Serviço> (Tópicos )`** (índice do serviço) ou para folhas específicas. **⚠️** = skill sem nota própria no vault (só menção, ou nada). Não duplica explicação; é só navegação. Índice geral: [[0 AWS core (Glossário )]].
+> **Cobertura:** todos os temas do mapa já têm nota própria no vault (X-Ray, ECR, Presigned URLs, Testes e mocks, **AWS SAM**, **Bedrock e IA no desenvolvimento**).
+
+### Domínio 1 — Development with AWS Services
+- **1.1.1 Acoplamento forte vs fraco** → [[0 Amazon SQS (Tópicos )|SQS]] · [[0 Amazon SNS (Tópicos )|SNS]] · [[0 Amazon EventBridge (Tópicos )|EventBridge]]
+- **1.1.2 Síncrono vs assíncrono** → [[2.1.1.1. Síncrono (API Gateway), assíncrono (S3, SNS) e poll-based (SQS, Kinesis) — diferenças, retry e DLQ|Lambda: síncrono, assíncrono e poll-based]] · [[0 Amazon SQS (Tópicos )|SQS]] · [[0 Amazon SNS (Tópicos )|SNS]]
+- **1.1.3 Aplicações tolerantes a falha** → [[0 Amazon SQS (Tópicos )|SQS (DLQ, retries)]] · [[0 AWS Step Functions (Tópicos )|Step Functions (Retry/Catch)]] · [[0 AWS Lambda (Tópicos )|Lambda]]
+- **1.1.4 APIs (API Gateway)** → [[0 Amazon API Gateway (Tópicos )|Amazon API Gateway]] · [[2.2.1.1. API Gateway, S3, SQS, EventBridge, DynamoDB Streams e outros triggers nativos da AWS|Triggers do Lambda]] · [[0 Amazon CloudFront (Tópicos )|CloudFront (origem API)]]
+- **1.1.5 APIs e SDKs (retries, paginação, backoff)** → [[0 AWS SDKs, CLI e SigV4 (Tópicos )|AWS SDKs, CLI e SigV4 (retries, backoff, paginação, timeouts, idempotência)]] · complementar: [[0 Amazon API Gateway (Tópicos )|API Gateway (429/backoff)]] · [[0 Amazon SQS (Tópicos )|SQS]] · [[0 Amazon DynamoDB (Tópicos )|DynamoDB]] · [[0 AWS Step Functions (Tópicos )|Step Functions]]
+- **1.1.6 Dados em streaming** → [[0 Amazon Kinesis (Tópicos )|Kinesis]]
+- **1.1.7 Serialização e desserialização** → [[0 AWS SDKs, CLI e SigV4 (Tópicos )|AWS SDKs, CLI e SigV4 (JSON, DynamoDB tipado, base64, Avro/Protobuf)]] · [[0 Amazon DynamoDB (Tópicos )|DynamoDB]]
+- **1.1.8 Padrões orientados a eventos** → [[0 Amazon EventBridge (Tópicos )|EventBridge]] · [[0 Amazon SNS (Tópicos )|SNS]] · [[0 Amazon SQS (Tópicos )|SQS]] · [[0 AWS Step Functions (Tópicos )|Step Functions]] · [[0 Amazon DynamoDB (Tópicos )|DynamoDB Streams]]
+- **1.1.9 Ferramentas de desenvolvimento assistido por IA (novo)** → [[0 IA no desenvolvimento de software (Tópicos )|IA no desenvolvimento de software (Amazon Q Developer, Kiro, agentes de código)]]
+- **1.1.10 Integrar serviços gerenciados de IA (novo)** → [[0 Amazon Bedrock e IA generativa (Tópicos )|Amazon Bedrock e IA generativa (Converse, RAG, agentes, Guardrails)]]
+- **1.2.1 Lambda em VPC** → [[0 AWS Lambda (Tópicos )|Lambda]] · [[0 Amazon VPC (Tópicos )|VPC]] (Dom. 4 NAT · 6 endpoints)
+- **1.2.2 Configuração de funções** → [[0 AWS Lambda (Tópicos )|Lambda]]
+- **1.2.3 Ciclo de vida de eventos e erros** → [[0 AWS Lambda (Tópicos )|Lambda]] · [[2.1.1.1. Síncrono (API Gateway), assíncrono (S3, SNS) e poll-based (SQS, Kinesis) — diferenças, retry e DLQ|Síncrono/assíncrono/poll-based]] · [[0 Amazon SQS (Tópicos )|SQS (DLQ)]]
+- **1.2.4 Integrar Lambda com serviços** → [[2.2.1.1. API Gateway, S3, SQS, EventBridge, DynamoDB Streams e outros triggers nativos da AWS|Triggers nativos]] · [[0 Amazon EventBridge (Tópicos )|EventBridge]] · [[0 AWS Step Functions (Tópicos )|Step Functions]]
+- **1.3.1 Ciclo de vida de dados** → [[0 Amazon S3 (Tópicos )|S3 (Lifecycle, Versioning)]] · [[0 Amazon DynamoDB (Tópicos )|DynamoDB (TTL)]] · [[0 AWS Backup (Tópicos )|Backup]]
+- **1.3.2 Escolher data store por padrão de acesso** → [[0 Amazon DynamoDB (Tópicos )|DynamoDB]] · [[0 Amazon RDS (Tópicos )|RDS]] · [[0 Amazon Aurora (Tópicos )|Aurora]] · [[0 Amazon S3 (Tópicos )|S3]] · [[0 Amazon ElastiCache (Tópicos )|ElastiCache]] · [[0 Amazon DocumentDB (Tópicos )|DocumentDB]] · [[0 Amazon Neptune (Tópicos )|Neptune]] · [[0 Amazon Redshift (Tópicos )|Redshift]]
+- **1.3.3 Cache conforme o data store** → [[0 Amazon ElastiCache (Tópicos )|ElastiCache]] · [[0 Amazon DynamoDB (Tópicos )|DynamoDB (DAX)]] · [[0 Amazon CloudFront (Tópicos )|CloudFront]]
+- **1.3.4 Configurar DynamoDB** → [[0 Amazon DynamoDB (Tópicos )|DynamoDB]] · [[3.2.1.1. Escala do DynamoDB em profundidade — divisão de partições, adaptive capacity, auto scaling, limites do on-demand e estratégias contra hot keys|Escala do DynamoDB em profundidade]]
+
+### Domínio 2 — Security
+- **2.1.1 Federação de identidade** → [[0 Amazon Cognito (Tópicos )|Amazon Cognito (federação social/SAML/OIDC)]] · [[2.3.1.4. IAM Identity Center (SSO)|Identity Center]]
+- **2.1.2 Controle de acesso, tokens, MFA** → [[0 Amazon Cognito (Tópicos )|Amazon Cognito (tokens JWT, MFA)]] · [[2.3.1.1. Usuários, Grupos e Roles|Usuários/Grupos/Roles]] · [[2.3.1.3. Multi-Factor Authentication (MFA)|MFA]]
+- **2.1.3 Acesso programático** → [[2.3.1.1. Usuários, Grupos e Roles|Usuários/Roles]] · [[0 Amazon Cognito (Tópicos )|Cognito identity pools (credenciais temporárias)]]
+- **2.1.4 Presigned URLs (novo)** → [[0 Amazon S3 (Tópicos )|S3]] · [[0 Amazon S3 Presigned URLs (Tópicos )|Presigned URLs]]
+- **2.1.5 Chamadas autenticadas** → [[2.3.1.2. Políticas (Policies)|Políticas]] · [[0 AWS SDKs, CLI e SigV4 (Tópicos )|AWS SDKs, CLI e SigV4 (credential chain, AssumeRole, SigV4)]]
+- **2.1.6 Permissões para principals e recursos** → [[2.3.1.2. Políticas (Policies)|Políticas]]
+- **2.1.7 Assumir uma role (STS)** → [[2.3.1.1. Usuários, Grupos e Roles|Roles]] · [[2.3.1.2. Políticas (Policies)|Políticas (trust)]]
+- **2.2.1 Repouso e trânsito** → [[2.3.2.7. AWS Key Management Service (KMS)|KMS]] · [[2.3.2.9. AWS Certificate Manager|ACM]]
+- **2.2.2 Certificados** → [[2.3.2.9. AWS Certificate Manager|ACM]]
+- **2.2.3 Client-side vs Server-side** → [[0 Amazon S3 (Tópicos )|S3]] · [[2.3.2.7. AWS Key Management Service (KMS)|KMS]]
+- **2.2.4 Chaves (KMS) e criptografia de envelope** → [[2.3.2.7. AWS Key Management Service (KMS)|KMS]]
+- **2.2.5 Certificados e chaves SSH** → [[0 Amazon EC2 (Tópicos )|EC2]] · [[0 AWS Systems Manager (Tópicos )|Systems Manager (Session Manager)]]
+- **2.2.6 Identificar/mascarar dados sensíveis (PII/PHI)** → [[0 Amazon Macie (Tópicos )|Amazon Macie (identificadores, findings, jobs)]] · [[2.3.2.4. Amazon GuardDuty|GuardDuty]] (relacionado)
+- **2.2.7 Gerenciamento de segredos** → [[2.3.2.8. AWS Secrets Manager|Secrets Manager]] · [[3.1.1.1. Parameter Store — tipos de parâmetro, hierarquia, SecureString com KMS, versões, políticas, integrações e comparação com Secrets Manager|Parameter Store]]
+- **2.3.1–2.3.4 Riscos de segurança com IA (novo)** → [[0 Amazon Bedrock e IA generativa (Tópicos )|Amazon Bedrock (Guardrails, prompt injection, IAM, privacidade, agentes)]] · [[0 IA no desenvolvimento de software (Tópicos )|IA no desenvolvimento (código gerado, segredos, licenças, permissões de agentes)]]
+- **2.3.5 Proteger conteúdo em logs** → [[0 AWS CloudWatch (Tópicos )|CloudWatch (Logs)]] · [[0 AWS CloudTrail (Tópicos )|CloudTrail]]
+
+### Domínio 3 — Testing and Deployment
+- **3.1.1 Dependências de módulos** → [[0 AWS Lambda (Tópicos )|Lambda (layers, pacotes)]]
+- **3.1.2 Imagens de container (novo)** → [[0 Amazon ECR (Tópicos )|Amazon ECR (push/pull, tags, lifecycle, scanning, replicação)]] · [[0 Amazon ECS (Tópicos )|ECS]] · [[0 Amazon EKS (Tópicos )|EKS]] · [[0 AWS Lambda (Tópicos )|Lambda (imagem)]]
+- **3.1.3 Repositórios de código** → [[0 AWS CodeCommit (Tópicos )|AWS CodeCommit (Git, PRs, approval rules)]] · [[0 AWS CodeBuild (Tópicos )|CodeBuild (fontes: GitHub/GitLab/Bitbucket)]]
+- **3.1.4 Configuração por ambiente** → [[3.1.1.1. Parameter Store — tipos de parâmetro, hierarquia, SecureString com KMS, versões, políticas, integrações e comparação com Secrets Manager|Parameter Store]] · [[2.3.2.8. AWS Secrets Manager|Secrets Manager]] · [[0 AWS Lambda (Tópicos )|Lambda (variáveis)]] · [[0 AWS Elastic Beanstalk (Tópicos )|Elastic Beanstalk]]
+- **3.1.5 Recursos do API Gateway (stages)** → [[0 Amazon API Gateway (Tópicos )|Amazon API Gateway (stages, variáveis, canary, domínios)]]
+- **3.2.1–3.2.3 Testes, APIs mock, eventos de teste** → [[0 AWS CodeBuild (Tópicos )|CodeBuild (relatórios de teste e cobertura, reports)]] · [[0 Testes e mocks para aplicações AWS (Tópicos )|Testes e mocks]] · parcial: [[0 AWS Lambda (Tópicos )|Lambda (eventos de teste)]]
+- **3.2.4 Ambientes** → [[0 AWS Lambda (Tópicos )|Lambda (versões/aliases)]] · [[0 AWS CloudFormation (Tópicos )|CloudFormation]] · [[0 AWS Elastic Beanstalk (Tópicos )|Elastic Beanstalk]]
+- **3.2.5 IA para testes (novo)** → [[0 IA no desenvolvimento de software (Tópicos )|IA no desenvolvimento (geração de testes, mutation testing)]] · [[0 Testes e mocks para aplicações AWS (Tópicos )|Testes e mocks]]
+- **3.3.1 Empacotamento Lambda** → [[0 AWS Lambda (Tópicos )|Lambda]]
+- **3.3.2 Orquestração de containers (novo)** → [[0 Amazon ECS (Tópicos )|ECS]] · [[0 Amazon EKS (Tópicos )|EKS]]
+- **3.3.3 IaC (CloudFormation e SAM)** → [[0 AWS CloudFormation (Tópicos )|CloudFormation]] · [[0 AWS SAM (Tópicos )|AWS SAM]]
+- **3.3.4 CodeDeploy** → [[0 AWS CodeDeploy (Tópicos )|AWS CodeDeploy (appspec, hooks, blue/green, canary, rollback)]] · [[0 AWS Lambda (Tópicos )|Lambda (aliases/canary)]] · [[0 Amazon ECS (Tópicos )|ECS]]
+- **3.3.5 CodePipeline e CodeBuild** → [[0 AWS CodePipeline (Tópicos )|AWS CodePipeline (stages, ações, V2)]] · [[0 AWS CodeBuild (Tópicos )|AWS CodeBuild (buildspec, cache, artefatos)]]
+- **3.3.6 Estratégias de deploy** → [[0 AWS CodeDeploy (Tópicos )|CodeDeploy (in-place, blue/green, canary, linear)]] · [[0 AWS Elastic Beanstalk (Tópicos )|Elastic Beanstalk]] · [[0 Amazon ECS (Tópicos )|ECS]] · [[0 AWS Lambda (Tópicos )|Lambda]] · [[0 AWS CloudFormation (Tópicos )|CloudFormation]]
+- **3.3.7 Rollback** → [[0 AWS CodeDeploy (Tópicos )|CodeDeploy (rollback automático e alarmes)]] · [[0 AWS CloudFormation (Tópicos )|CloudFormation]] · [[0 AWS Elastic Beanstalk (Tópicos )|Elastic Beanstalk]]
+- **3.3.8 Controle de versão e releases** → [[0 AWS Lambda (Tópicos )|Lambda (versões/aliases)]] · [[0 AWS Step Functions (Tópicos )|Step Functions (versões)]]
+- **3.3.9 IA em CI/CD (novo)** → [[0 IA no desenvolvimento de software (Tópicos )|IA no desenvolvimento (revisão de PR, análise de falhas de build, pipelines assistidos)]]
+
+### Domínio 4 — Troubleshooting and Optimization
+- **4.1.1 Depurar código e integrações** → [[0 AWS CloudWatch (Tópicos )|CloudWatch]] · [[0 AWS Lambda (Tópicos )|Lambda]]
+- **4.1.2 Interpretar métricas, logs e traces** → [[0 AWS CloudWatch (Tópicos )|CloudWatch]] · [[5.1.1.1. Observabilidade avançada — dashboards, Container Insights, Lambda Insights, Synthetics, RUM, Application Signals e X-Ray|Observabilidade avançada (X-Ray)]]
+- **4.1.3 Consultar logs** → [[0 AWS CloudWatch (Tópicos )|CloudWatch (Logs Insights)]] · [[0 Amazon Athena (Tópicos )|Athena]]
+- **4.1.4 Falhas de deploy via logs** → [[0 AWS CodeDeploy (Tópicos )|CodeDeploy (logs do agent e hooks)]] · [[0 AWS CodePipeline (Tópicos )|CodePipeline (estados e falhas)]] · [[0 AWS CloudFormation (Tópicos )|CloudFormation]] · [[0 Amazon ECS (Tópicos )|ECS]] · [[0 AWS CloudTrail (Tópicos )|CloudTrail]]
+- **4.1.5 IA para analisar erros (novo)** → [[0 IA no desenvolvimento de software (Tópicos )|IA no desenvolvimento (diagnóstico de logs/stack traces, Amazon Q, DevOps Guru)]]
+- **4.2.1 Estratégia de logging** → [[0 AWS CloudWatch (Tópicos )|CloudWatch]] · [[0 AWS CloudTrail (Tópicos )|CloudTrail]]
+- **4.2.2 Métricas customizadas** → [[0 AWS CloudWatch (Tópicos )|CloudWatch]]
+- **4.2.3 Alertas** → [[0 AWS CloudWatch (Tópicos )|CloudWatch (alarmes)]] · [[0 Amazon SNS (Tópicos )|SNS]] · [[0 Amazon EventBridge (Tópicos )|EventBridge]]
+- **4.2.4 Tracing (X-Ray)** → [[5.1.1.1. Observabilidade avançada — dashboards, Container Insights, Lambda Insights, Synthetics, RUM, Application Signals e X-Ray|Observabilidade avançada (X-Ray)]] · [[0 AWS X-Ray (Tópicos )|AWS X-Ray (traces, sampling, annotations, Insights)]]
+- **4.2.5 Saúde da carga de trabalho (novo)** → [[0 AWS CloudWatch (Tópicos )|CloudWatch]] · [[0 AWS Config (Tópicos )|Config]] · [[0 AWS Systems Manager (Tópicos )|Systems Manager]]
+- **4.3.1 Concorrência** → [[0 AWS Lambda (Tópicos )|Lambda]] · [[0 Amazon DynamoDB (Tópicos )|DynamoDB]]
+- **4.3.2 Memória e CPU** → [[0 AWS Lambda (Tópicos )|Lambda]]
+- **4.3.3 Mensageria otimizada** → [[0 Amazon SQS (Tópicos )|SQS (long polling, batch)]] · [[0 Amazon SNS (Tópicos )|SNS (filter policies)]] · [[0 Amazon Kinesis (Tópicos )|Kinesis]]
+- **4.3.4 Cache (ElastiCache, DAX, CloudFront)** → [[0 Amazon ElastiCache (Tópicos )|ElastiCache]] · [[0 Amazon DynamoDB (Tópicos )|DynamoDB (DAX)]] · [[0 Amazon CloudFront (Tópicos )|CloudFront]]
+- **4.3.5 Gargalos (CloudWatch, X-Ray)** → [[0 AWS CloudWatch (Tópicos )|CloudWatch]] · [[5.1.1.1. Observabilidade avançada — dashboards, Container Insights, Lambda Insights, Synthetics, RUM, Application Signals e X-Ray|X-Ray (visão geral)]] · [[0 AWS X-Ray (Tópicos )|AWS X-Ray (nota própria)]]
+- **4.3.6 IA para otimização (novo)** → [[0 AWS Compute Optimizer (Tópicos )|AWS Compute Optimizer (recomendações de dimensionamento)]] · [[0 IA no desenvolvimento de software (Tópicos )|IA no desenvolvimento (otimização assistida, profiling, Power Tuning)]]
+
+### Seções 5–9 (Confrontos, Limites, Step Functions/EventBridge, S3, Palavras-gatilho)
+- **7 Step Functions e EventBridge** → [[0 AWS Step Functions (Tópicos )|Step Functions]] · [[0 Amazon EventBridge (Tópicos )|EventBridge]]
+- **8 S3 (alta frequência)** → [[0 Amazon S3 (Tópicos )|S3]]
+- **5–6 Confrontos e limites** → ler o sub-glossário do serviço (Lambda, SQS, SNS, Kinesis, DynamoDB, S3).

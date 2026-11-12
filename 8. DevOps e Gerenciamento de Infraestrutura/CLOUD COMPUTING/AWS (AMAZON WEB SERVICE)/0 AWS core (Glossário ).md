@@ -130,8 +130,9 @@ O objetivo deste material é ir além da superfície e entender como os componen
   - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.1. Computação/3.3.1.3. Amazon ECS/0 Amazon ECS (Tópicos )|3.3.1.3. Amazon ECS]]
   - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.1. Computação/3.3.1.4. Amazon EKS/0 Amazon EKS (Tópicos )|3.3.1.4. Amazon EKS]]
   - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.1. Computação/3.3.1.5. AWS Elastic Beanstalk/0 AWS Elastic Beanstalk (Tópicos )|3.3.1.5. AWS Elastic Beanstalk]]
-  - [ ] 3.3.1.6. Amazon Lightsail
-  - [ ] 3.3.1.7. AWS Batch
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.1. Computação/3.3.1.6. Amazon Lightsail/0 Amazon Lightsail (Tópicos )|3.3.1.6. Amazon Lightsail]]
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.1. Computação/3.3.1.7. AWS Batch/0 AWS Batch (Tópicos )|3.3.1.7. AWS Batch]]
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.1. Computação/3.3.1.8. Amazon ECR/0 Amazon ECR (Tópicos )|3.3.1.8. Amazon ECR]]
 - **3.3.2. Armazenamento**
   - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.2. Armazenamento/3.3.2.1. Amazon S3/0 Amazon S3 (Tópicos )|3.3.2.1. Amazon S3]]
   - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.2. Armazenamento/3.3.2.2. Amazon EBS/0 Amazon EBS (Tópicos )|3.3.2.2. Amazon EBS]]
@@ -139,6 +140,7 @@ O objetivo deste material é ir além da superfície e entender como os componen
   - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.2. Armazenamento/3.3.2.4. AWS Storage Gateway/0 AWS Storage Gateway (Tópicos )|3.3.2.4. AWS Storage Gateway]]
   - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.2. Armazenamento/3.3.2.5. Amazon FSx/0 Amazon FSx (Tópicos )|3.3.2.5. Amazon FSx]]
   - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.2. Armazenamento/3.3.2.6. AWS Backup/0 AWS Backup (Tópicos )|3.3.2.6. AWS Backup]]
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.2. Armazenamento/3.3.2.7. Amazon S3 Presigned URLs/0 Amazon S3 Presigned URLs (Tópicos )|3.3.2.7. Amazon S3 Presigned URLs]]
 - **3.3.3. Banco de Dados**
   - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.3. Banco de Dados/3.3.3.1. Amazon RDS/0 Amazon RDS (Tópicos )|3.3.3.1. Amazon RDS]]
   - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.3. Banco de Dados/3.3.3.2. Amazon DynamoDB/0 Amazon DynamoDB (Tópicos )|3.3.3.2. Amazon DynamoDB]]
@@ -157,28 +159,54 @@ O objetivo deste material é ir além da superfície e entender como os componen
   - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.4. Rede/3.3.4.7. Elastic Load Balancing/0 Elastic Load Balancing (Tópicos )|3.3.4.7. Elastic Load Balancing]]
   - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.4. Rede/3.3.4.8. AWS Global Accelerator/0 AWS Global Accelerator (Tópicos )|3.3.4.8. AWS Global Accelerator]]
 - **3.3.5. Gerenciamento e Governança**
-  - [ ] 3.3.5.1. AWS CloudWatch
-  - [ ] 3.3.5.2. AWS CloudTrail
-  - [ ] 3.3.5.3. AWS Config
-  - [ ] 3.3.5.4. AWS Systems Manager
-  - [ ] 3.3.5.5. AWS CloudFormation
-  - [ ] 3.3.5.6. AWS Service Catalog
-  - [ ] 3.3.5.7. AWS Control Tower
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.5. Gerenciamento e Governança/3.3.5.1. AWS CloudWatch/0 AWS CloudWatch (Tópicos )|3.3.5.1. AWS CloudWatch]]
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.5. Gerenciamento e Governança/3.3.5.2. AWS CloudTrail/0 AWS CloudTrail (Tópicos )|3.3.5.2. AWS CloudTrail]]
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.5. Gerenciamento e Governança/3.3.5.3. AWS Config/0 AWS Config (Tópicos )|3.3.5.3. AWS Config]]
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.5. Gerenciamento e Governança/3.3.5.4. AWS Systems Manager/0 AWS Systems Manager (Tópicos )|3.3.5.4. AWS Systems Manager]]
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.5. Gerenciamento e Governança/3.3.5.5. AWS CloudFormation/0 AWS CloudFormation (Tópicos )|3.3.5.5. AWS CloudFormation]]
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.5. Gerenciamento e Governança/3.3.5.6. AWS Service Catalog/0 AWS Service Catalog (Tópicos )|3.3.5.6. AWS Service Catalog]]
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.5. Gerenciamento e Governança/3.3.5.7. AWS Control Tower/0 AWS Control Tower (Tópicos )|3.3.5.7. AWS Control Tower]]
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.5. Gerenciamento e Governança/3.3.5.8. AWS X-Ray/0 AWS X-Ray (Tópicos )|3.3.5.8. AWS X-Ray]]
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.5. Gerenciamento e Governança/3.3.5.9. AWS Compute Optimizer/0 AWS Compute Optimizer (Tópicos )|3.3.5.9. AWS Compute Optimizer]]
 - **3.3.6. Análise e Analytics**
-  - [ ] 3.3.6.1. Amazon Athena
-  - [ ] 3.3.6.2. Amazon Kinesis
-  - [ ] 3.3.6.3. Amazon QuickSight
-  - [ ] 3.3.6.4. AWS Glue
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.6. Análise e Analytics/3.3.6.1. Amazon Athena/0 Amazon Athena (Tópicos )|3.3.6.1. Amazon Athena]]
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.6. Análise e Analytics/3.3.6.2. Amazon Kinesis/0 Amazon Kinesis (Tópicos )|3.3.6.2. Amazon Kinesis]]
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.6. Análise e Analytics/3.3.6.3. Amazon QuickSight/0 Amazon QuickSight (Tópicos )|3.3.6.3. Amazon QuickSight]]
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.6. Análise e Analytics/3.3.6.4. AWS Glue/0 AWS Glue (Tópicos )|3.3.6.4. AWS Glue]]
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.6. Análise e Analytics/3.3.6.5. Amazon EMR/0 Amazon EMR (Tópicos )|3.3.6.5. Amazon EMR]]
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.6. Análise e Analytics/3.3.6.6. Amazon OpenSearch Service/0 Amazon OpenSearch Service (Tópicos )|3.3.6.6. Amazon OpenSearch Service]]
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.6. Análise e Analytics/3.3.6.7. AWS Lake Formation/0 AWS Lake Formation (Tópicos )|3.3.6.7. AWS Lake Formation]]
 - **3.3.7. Integração de Aplicações**
-  - [ ] 3.3.7.1. Amazon SQS
-  - [ ] 3.3.7.2. Amazon SNS
-  - [ ] 3.3.7.3. Amazon EventBridge
-  - [ ] 3.3.7.4. AWS Step Functions
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.7. Integração de Aplicações/3.3.7.1. Amazon SQS/0 Amazon SQS (Tópicos )|3.3.7.1. Amazon SQS]]
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.7. Integração de Aplicações/3.3.7.2. Amazon SNS/0 Amazon SNS (Tópicos )|3.3.7.2. Amazon SNS]]
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.7. Integração de Aplicações/3.3.7.3. Amazon EventBridge/0 Amazon EventBridge (Tópicos )|3.3.7.3. Amazon EventBridge]]
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.7. Integração de Aplicações/3.3.7.4. AWS Step Functions/0 AWS Step Functions (Tópicos )|3.3.7.4. AWS Step Functions]]
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.7. Integração de Aplicações/3.3.7.5. Amazon API Gateway/0 Amazon API Gateway (Tópicos )|3.3.7.5. Amazon API Gateway]]
 - **3.3.8. Migração e Transferência**
-  - [ ] 3.3.8.1. AWS Migration Hub
-  - [ ] 3.3.8.2. AWS Database Migration Service
-  - [ ] 3.3.8.3. AWS DataSync
-  - [ ] 3.3.8.4. AWS Snow Family
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.8. Migração e Transferência/3.3.8.1. AWS Migration Hub/0 AWS Migration Hub (Tópicos )|3.3.8.1. AWS Migration Hub]]
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.8. Migração e Transferência/3.3.8.2. AWS Database Migration Service/0 AWS Database Migration Service (Tópicos )|3.3.8.2. AWS Database Migration Service]]
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.8. Migração e Transferência/3.3.8.3. AWS DataSync/0 AWS DataSync (Tópicos )|3.3.8.3. AWS DataSync]]
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.8. Migração e Transferência/3.3.8.4. AWS Snow Family/0 AWS Snow Family (Tópicos )|3.3.8.4. AWS Snow Family]]
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.8. Migração e Transferência/3.3.8.5. AWS Elastic Disaster Recovery/0 AWS Elastic Disaster Recovery (Tópicos )|3.3.8.5. AWS Elastic Disaster Recovery]]
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.8. Migração e Transferência/3.3.8.6. AWS Transfer Family/0 AWS Transfer Family (Tópicos )|3.3.8.6. AWS Transfer Family]]
+- **3.3.9. Segurança e Identidade**
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.9. Segurança e Identidade/3.3.9.1. Amazon Cognito/0 Amazon Cognito (Tópicos )|3.3.9.1. Amazon Cognito]]
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.9. Segurança e Identidade/3.3.9.2. Amazon Macie/0 Amazon Macie (Tópicos )|3.3.9.2. Amazon Macie]]
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.9. Segurança e Identidade/3.3.9.3. AWS Network Firewall/0 AWS Network Firewall (Tópicos )|3.3.9.3. AWS Network Firewall]]
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.9. Segurança e Identidade/3.3.9.4. AWS Firewall Manager/0 AWS Firewall Manager (Tópicos )|3.3.9.4. AWS Firewall Manager]]
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.9. Segurança e Identidade/3.3.9.5. AWS Directory Service/0 AWS Directory Service (Tópicos )|3.3.9.5. AWS Directory Service]]
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.9. Segurança e Identidade/3.3.9.6. AWS Resource Access Manager/0 AWS Resource Access Manager (Tópicos )|3.3.9.6. AWS Resource Access Manager]]
+- **3.3.10. Ferramentas de Desenvolvedor**
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.10. Ferramentas de Desenvolvedor/3.3.10.1. AWS CodeCommit/0 AWS CodeCommit (Tópicos )|3.3.10.1. AWS CodeCommit]]
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.10. Ferramentas de Desenvolvedor/3.3.10.2. AWS CodeBuild/0 AWS CodeBuild (Tópicos )|3.3.10.2. AWS CodeBuild]]
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.10. Ferramentas de Desenvolvedor/3.3.10.3. AWS CodeDeploy/0 AWS CodeDeploy (Tópicos )|3.3.10.3. AWS CodeDeploy]]
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.10. Ferramentas de Desenvolvedor/3.3.10.4. AWS CodePipeline/0 AWS CodePipeline (Tópicos )|3.3.10.4. AWS CodePipeline]]
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.10. Ferramentas de Desenvolvedor/3.3.10.5. AWS SDKs, CLI e SigV4/0 AWS SDKs, CLI e SigV4 (Tópicos )|3.3.10.5. AWS SDKs, CLI e SigV4]]
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.10. Ferramentas de Desenvolvedor/3.3.10.6. Testes e mocks para aplicações AWS/0 Testes e mocks para aplicações AWS (Tópicos )|3.3.10.6. Testes e mocks para aplicações AWS]]
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.10. Ferramentas de Desenvolvedor/3.3.10.7. AWS SAM/0 AWS SAM (Tópicos )|3.3.10.7. AWS SAM]]
+- **3.3.11. Inteligência Artificial**
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.11. Inteligência Artificial/3.3.11.1. Amazon Bedrock e IA generativa/0 Amazon Bedrock e IA generativa (Tópicos )|3.3.11.1. Amazon Bedrock e IA generativa]]
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.11. Inteligência Artificial/3.3.11.2. IA no desenvolvimento de software/0 IA no desenvolvimento de software (Tópicos )|3.3.11.2. IA no desenvolvimento de software]]
 
 ---
 
@@ -186,44 +214,44 @@ O objetivo deste material é ir além da superfície e entender como os componen
 
 ### 4.1 Modelos de preços da AWS
 - **4.1.1. Modelos de instância EC2**
-  - [ ] 4.1.1.1. On-Demand
-  - [ ] 4.1.1.2. Reserved Instances
-  - [ ] 4.1.1.3. Savings Plans
-  - [ ] 4.1.1.4. Spot Instances
-  - [ ] 4.1.1.5. Dedicated Hosts
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.1. Computação/3.3.1.1. Amazon EC2/3. Modelos de Compra/3.1 Estratégias de Pricing/3.1.1. On-Demand e Reserved Instances/3.1.1.1. On-Demand — flexibilidade máxima, cobrança por segundo e quando usar|4.1.1.1. On-Demand]]
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.1. Computação/3.3.1.1. Amazon EC2/3. Modelos de Compra/3.1 Estratégias de Pricing/3.1.1. On-Demand e Reserved Instances/3.1.1.2. Reserved Instances — Standard e Convertible, descontos de até 72%, opções de pagamento e quando comprometer|4.1.1.2. Reserved Instances]]
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.1. Computação/3.3.1.1. Amazon EC2/3. Modelos de Compra/3.1 Estratégias de Pricing/3.1.2. Savings Plans e Spot/3.1.2.1. Compute Savings Plans — compromisso de gasto em dólar por hora, cobertura automática e vantagem sobre Reserved|4.1.1.3. Savings Plans]]
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.1. Computação/3.3.1.1. Amazon EC2/3. Modelos de Compra/3.1 Estratégias de Pricing/3.1.2. Savings Plans e Spot/3.1.2.2. Spot Instances — capacidade ociosa, 70-90% de desconto, estratégias de diversificação e quando usar com segurança|4.1.1.4. Spot Instances]]
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/3. Tecnologia e Serviços/3.3 Serviços principais da AWS/3.3.1. Computação/3.3.1.1. Amazon EC2/3. Modelos de Compra/3.1 Estratégias de Pricing/3.1.3. Dedicated/3.1.3.1. Dedicated Instances e Dedicated Hosts — compliance, licenças BYOL (Oracle, Windows) e trade-offs de custo|4.1.1.5. Dedicated Hosts]]
 - **4.1.2. Outros modelos de preço**
-  - [ ] 4.1.2.1. Modelos de preços de armazenamento
-  - [ ] 4.1.2.2. Preços de transferência de dados
-  - [ ] 4.1.2.3. AWS Free Tier (tipos e limites)
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/4. Faturamento, Preços e Suporte/4.1 Modelos de preços da AWS/4.1.2. Outros modelos de preço/4.1.2.1. Modelos de preços de armazenamento|4.1.2.1. Modelos de preços de armazenamento]]
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/4. Faturamento, Preços e Suporte/4.1 Modelos de preços da AWS/4.1.2. Outros modelos de preço/4.1.2.2. Preços de transferência de dados|4.1.2.2. Preços de transferência de dados]]
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/4. Faturamento, Preços e Suporte/4.1 Modelos de preços da AWS/4.1.2. Outros modelos de preço/4.1.2.3. AWS Free Tier (tipos e limites)|4.1.2.3. AWS Free Tier (tipos e limites)]]
 
 ### 4.2 Recursos de gerenciamento de custos
 - **4.2.1. Ferramentas de custo**
-  - [ ] 4.2.1.1. AWS Budgets
-  - [ ] 4.2.1.2. AWS Cost Explorer
-  - [ ] 4.2.1.3. AWS Cost and Usage Report
-  - [ ] 4.2.1.4. AWS Billing Dashboard
-  - [ ] 4.2.1.5. Tags para alocação de custos
-  - [ ] 4.2.1.6. Consolidated Billing
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/4. Faturamento, Preços e Suporte/4.2 Recursos de gerenciamento de custos/4.2.1. Ferramentas de custo/4.2.1.1. AWS Budgets|4.2.1.1. AWS Budgets]]
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/4. Faturamento, Preços e Suporte/4.2 Recursos de gerenciamento de custos/4.2.1. Ferramentas de custo/4.2.1.2. AWS Cost Explorer|4.2.1.2. AWS Cost Explorer]]
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/4. Faturamento, Preços e Suporte/4.2 Recursos de gerenciamento de custos/4.2.1. Ferramentas de custo/4.2.1.3. AWS Cost and Usage Report|4.2.1.3. AWS Cost and Usage Report]]
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/4. Faturamento, Preços e Suporte/4.2 Recursos de gerenciamento de custos/4.2.1. Ferramentas de custo/4.2.1.4. AWS Billing Dashboard|4.2.1.4. AWS Billing Dashboard]]
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/4. Faturamento, Preços e Suporte/4.2 Recursos de gerenciamento de custos/4.2.1. Ferramentas de custo/4.2.1.5. Tags para alocação de custos|4.2.1.5. Tags para alocação de custos]]
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/4. Faturamento, Preços e Suporte/4.2 Recursos de gerenciamento de custos/4.2.1. Ferramentas de custo/4.2.1.6. Consolidated Billing|4.2.1.6. Consolidated Billing]]
 
 ### 4.3 Planos de suporte da AWS
 - **4.3.1. Níveis de suporte**
-  - [ ] 4.3.1.1. Basic
-  - [ ] 4.3.1.2. Developer
-  - [ ] 4.3.1.3. Business
-  - [ ] 4.3.1.4. Enterprise On-Ramp
-  - [ ] 4.3.1.5. Enterprise
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/4. Faturamento, Preços e Suporte/4.3 Planos de suporte da AWS/4.3.1. Níveis de suporte/4.3.1.1. Basic|4.3.1.1. Basic]]
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/4. Faturamento, Preços e Suporte/4.3 Planos de suporte da AWS/4.3.1. Níveis de suporte/4.3.1.2. Developer|4.3.1.2. Developer]]
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/4. Faturamento, Preços e Suporte/4.3 Planos de suporte da AWS/4.3.1. Níveis de suporte/4.3.1.3. Business|4.3.1.3. Business]]
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/4. Faturamento, Preços e Suporte/4.3 Planos de suporte da AWS/4.3.1. Níveis de suporte/4.3.1.4. Enterprise On-Ramp|4.3.1.4. Enterprise On-Ramp]]
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/4. Faturamento, Preços e Suporte/4.3 Planos de suporte da AWS/4.3.1. Níveis de suporte/4.3.1.5. Enterprise|4.3.1.5. Enterprise]]
 - **4.3.2. Recursos de cada plano**
-  - [ ] 4.3.2.1. Tempos de resposta
-  - [ ] 4.3.2.2. Technical Account Manager (TAM)
-  - [ ] 4.3.2.3. AWS Trusted Advisor (verificações disponíveis)
-  - [ ] 4.3.2.4. AWS Support API
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/4. Faturamento, Preços e Suporte/4.3 Planos de suporte da AWS/4.3.2. Recursos de cada plano/4.3.2.1. Tempos de resposta|4.3.2.1. Tempos de resposta]]
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/4. Faturamento, Preços e Suporte/4.3 Planos de suporte da AWS/4.3.2. Recursos de cada plano/4.3.2.2. Technical Account Manager (TAM)|4.3.2.2. Technical Account Manager (TAM)]]
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/2. Segurança e Conformidade/2.4 Recursos de suporte à segurança/2.4.1. Ferramentas de governança/2.4.1.1. AWS Trusted Advisor|4.3.2.3. AWS Trusted Advisor (verificações disponíveis)]]
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/4. Faturamento, Preços e Suporte/4.3 Planos de suporte da AWS/4.3.2. Recursos de cada plano/4.3.2.4. AWS Support API|4.3.2.4. AWS Support API]]
 
 ### 4.4 Recursos de suporte técnico
 - **4.4.1. Documentação e comunidade**
-  - [ ] 4.4.1.1. AWS Documentation e Whitepapers
-  - [ ] 4.4.1.2. AWS Knowledge Center e re:Post
-  - [ ] 4.4.1.3. AWS Professional Services e Partner Network (APN)
-  - [ ] 4.4.1.4. AWS Marketplace
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/4. Faturamento, Preços e Suporte/4.4 Recursos de suporte técnico/4.4.1. Documentação e comunidade/4.4.1.1. AWS Documentation e Whitepapers|4.4.1.1. AWS Documentation e Whitepapers]]
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/4. Faturamento, Preços e Suporte/4.4 Recursos de suporte técnico/4.4.1. Documentação e comunidade/4.4.1.2. AWS Knowledge Center e re-Post|4.4.1.2. AWS Knowledge Center e re:Post]]
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/4. Faturamento, Preços e Suporte/4.4 Recursos de suporte técnico/4.4.1. Documentação e comunidade/4.4.1.3. AWS Professional Services e Partner Network (APN)|4.4.1.3. AWS Professional Services e Partner Network (APN)]]
+  - [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/4. Faturamento, Preços e Suporte/4.4 Recursos de suporte técnico/4.4.1. Documentação e comunidade/4.4.1.4. AWS Marketplace|4.4.1.4. AWS Marketplace]]
 
 ---
 

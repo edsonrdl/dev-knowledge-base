@@ -426,3 +426,54 @@ Amazon Comprehend (NLP), Polly (texto→voz), Rekognition (imagem/vídeo), Trans
 - [ ] Simulados cronometrados (65 questões/130 min)
 
 *Próximo passo:* gerar questões com [[SAA-C03 - Prompts de Questoes]].
+
+---
+
+## 10. 🔗 Mapa de Estudo no Vault (só para leitura)
+
+> Para cada tópico deste glossário, onde ler o **conteúdo técnico** no vault `8. DevOps.../AWS (AMAZON WEB SERVICE)/`. Os links apontam para o **sub-glossário `0 <Serviço> (Tópicos )`** (índice do serviço) ou para folhas específicas. **⚠️** = tópico sem nota própria no vault (só menção dentro de outras notas). Não duplica explicação; é só navegação.
+> Atalhos transversais: Responsabilidade compartilhada e Well-Architected → [[2.1.1.1. Responsabilidades da AWS (segurança DA nuvem)|AWS]] · [[2.1.1.2. Responsabilidades do cliente (segurança NA nuvem)|Cliente]] · [[2.4.1.2. AWS Well-Architected Tool|Well-Architected Tool]]. Índice geral do vault: [[0 AWS core (Glossário )]].
+
+### Domínio 1 — Design Secure Architectures
+- **1.1.1 Infraestrutura global e responsabilidade compartilhada** → [[3.2.1.1. Regiões (Regions)|Regiões]] · [[3.2.1.2. Zonas de Disponibilidade (AZs)|AZs]] · [[3.2.1.3. Edge Locations|Edge]] · [[3.2.1.4. Local Zones|Local Zones]] · [[3.2.1.5. Wavelength Zones|Wavelength]] · [[3.2.1.6. AWS Outposts|Outposts]]
+- **1.1.2 IAM (root, MFA, usuários, grupos, roles, políticas)** → [[2.3.1.1. Usuários, Grupos e Roles|Usuários/Grupos/Roles]] · [[2.3.1.2. Políticas (Policies)|Políticas]] · [[2.3.1.3. Multi-Factor Authentication (MFA)|MFA]] · [[2.2.2.1. Princípio do menor privilégio|Menor privilégio]]
+- **1.1.3 Estratégia multi-conta** → [[2.3.2.1. AWS Organizations|Organizations]] · [[0 AWS Control Tower (Tópicos )|Control Tower]] · [[2.3.1.4. IAM Identity Center (SSO)|Identity Center]] · [[0 AWS Resource Access Manager (Tópicos )|AWS RAM]]
+- **1.1.4 Federação e serviços de diretório** → [[2.3.1.4. IAM Identity Center (SSO)|Identity Center]] · [[0 Amazon Cognito (Tópicos )|Amazon Cognito]] (user pool × identity pool; ALB via [[0 Elastic Load Balancing (Tópicos )|ELB]]) · [[0 AWS Directory Service (Tópicos )|AWS Directory Service (Managed AD, AD Connector, Simple AD)]]
+- **1.1.5 Resource policies** → [[2.3.1.2. Políticas (Policies)|Políticas]] · [[0 Amazon S3 (Tópicos )|S3]] · [[0 Amazon SQS (Tópicos )|SQS]] · [[0 Amazon SNS (Tópicos )|SNS]] · [[2.3.2.7. AWS Key Management Service (KMS)|KMS]]
+- **1.2.1 VPC segura (SG, NACL, NAT, endpoints, Flow Logs)** → [[0 Amazon VPC (Tópicos )|Amazon VPC]] (Dom. 2 subnets · 4 IGW/NAT · 5 SG/NACL · 6 endpoints/PrivateLink · 9 Flow Logs)
+- **1.2.2 Segmentação e camadas** → [[0 Amazon VPC (Tópicos )|VPC]] (Dom. 2 design multi-AZ) · [[0 Elastic Load Balancing (Tópicos )|ELB]] · [[2.2.2.2. Defense in depth|Defense in depth]]
+- **1.2.3 Proteção de aplicações** → [[2.3.2.3. AWS WAF|WAF]] · [[2.3.2.2. AWS Shield (Standard e Advanced)|Shield]] · [[2.3.2.4. Amazon GuardDuty|GuardDuty]] · [[2.3.2.6. Amazon Inspector|Inspector]] · [[2.3.2.5. AWS Security Hub|Security Hub]] · [[0 AWS Network Firewall (Tópicos )|AWS Network Firewall]] · [[0 AWS Firewall Manager (Tópicos )|AWS Firewall Manager]] · [[0 Amazon Macie (Tópicos )|Amazon Macie]]
+- **1.2.4 Conexões externas seguras** → [[3.1.2.1. VPN|VPN]] · [[3.1.2.2. AWS Direct Connect|Direct Connect]] · [[0 Amazon VPC (Tópicos )|VPC]] (Dom. 7–8 peering/TGW/VPN/DX) · [[0 Amazon CloudFront (Tópicos )|CloudFront]]
+- **1.3.1 KMS e criptografia** → [[2.3.2.7. AWS Key Management Service (KMS)|KMS]] · [[2.3.2.8. AWS Secrets Manager|Secrets Manager]] · [[2.3.2.9. AWS Certificate Manager|ACM]]
+- **1.3.2 Dados: acesso, retenção, backup, recuperação** → [[0 Amazon S3 (Tópicos )|S3]] (Versioning, Object Lock, Lifecycle) · [[0 AWS Backup (Tópicos )|AWS Backup]] · [[0 Amazon EBS (Tópicos )|EBS]] · [[0 Amazon RDS (Tópicos )|RDS]]
+
+### Domínio 2 — Design Resilient Architectures
+- **2.1.1 Desacoplamento e mensageria** → [[0 Amazon SQS (Tópicos )|SQS]] · [[0 Amazon SNS (Tópicos )|SNS]] · [[0 Amazon EventBridge (Tópicos )|EventBridge]] · [[0 Amazon Kinesis (Tópicos )|Kinesis]] · [[0 AWS Step Functions (Tópicos )|Step Functions]]
+- **2.1.2 Escalabilidade** → [[0 Amazon EC2 (Tópicos )|EC2 (Auto Scaling)]] · [[0 AWS Lambda (Tópicos )|Lambda]] · [[0 Amazon ECS (Tópicos )|ECS]] · [[0 Amazon DynamoDB (Tópicos )|DynamoDB]] · [[0 Amazon Aurora (Tópicos )|Aurora]]
+- **2.1.3 Balanceadores de carga (ELB)** → [[0 Elastic Load Balancing (Tópicos )|Elastic Load Balancing]]
+- **2.1.4 API, serverless e containers** → [[0 AWS Lambda (Tópicos )|Lambda]] · [[0 Amazon ECS (Tópicos )|ECS]] · [[0 Amazon EKS (Tópicos )|EKS]] · [[0 AWS Step Functions (Tópicos )|Step Functions]] · [[2.2.1.1. API Gateway, S3, SQS, EventBridge, DynamoDB Streams e outros triggers nativos da AWS|Triggers (parcial API Gateway)]] · [[0 Amazon API Gateway (Tópicos )|Amazon API Gateway]]
+- **2.1.5 Armazenamento por tipo** → [[0 Amazon S3 (Tópicos )|S3]] · [[0 Amazon EBS (Tópicos )|EBS]] · [[0 Amazon EFS (Tópicos )|EFS]] · [[0 Amazon FSx (Tópicos )|FSx]]
+- **2.1.6 Bancos e réplicas de leitura** → [[0 Amazon RDS (Tópicos )|RDS]] · [[0 Amazon Aurora (Tópicos )|Aurora]] · [[0 Amazon ElastiCache (Tópicos )|ElastiCache]] · [[0 Amazon DynamoDB (Tópicos )|DynamoDB]]
+- **2.2.1 HA vs tolerância a falhas** → [[3.2.2.1. Alta disponibilidade|Alta disponibilidade]] · [[3.2.1.2. Zonas de Disponibilidade (AZs)|AZs]]
+- **2.2.2 Rede e DNS** → [[0 Amazon Route 53 (Tópicos )|Route 53]] · [[0 Elastic Load Balancing (Tópicos )|ELB]] · [[0 AWS Global Accelerator (Tópicos )|Global Accelerator]] · [[0 Amazon CloudFront (Tópicos )|CloudFront]]
+- **2.2.3 Banco de dados HA** → [[0 Amazon RDS (Tópicos )|RDS (Multi-AZ)]] · [[0 Amazon Aurora (Tópicos )|Aurora]] · [[0 Amazon DynamoDB (Tópicos )|DynamoDB (Global Tables)]] · [[0 Amazon ElastiCache (Tópicos )|ElastiCache]]
+- **2.2.4 Recuperação de desastres (RPO/RTO)** → [[3.2.2.3. Recuperação de desastres|Recuperação de desastres]] · [[0 AWS Backup (Tópicos )|AWS Backup]] · [[0 Amazon Route 53 (Tópicos )|Route 53 (failover)]] · [[0 AWS Database Migration Service (Tópicos )|DMS]] · [[0 AWS Elastic Disaster Recovery (Tópicos )|Elastic Disaster Recovery]]
+- **2.2.5 Outros conceitos** → [[0 AWS CloudWatch (Tópicos )|CloudWatch]] · [[0 AWS Systems Manager (Tópicos )|Systems Manager]] · [[0 AWS CloudFormation (Tópicos )|CloudFormation]]
+
+### Domínio 3 — Design High-Performing Architectures
+- **3.1 Armazenamento de alta performance** → [[0 Amazon S3 (Tópicos )|S3]] · [[0 Amazon EBS (Tópicos )|EBS]] · [[0 Amazon EFS (Tópicos )|EFS]] · [[0 Amazon FSx (Tópicos )|FSx]] · [[0 AWS Storage Gateway (Tópicos )|Storage Gateway]] · [[0 AWS DataSync (Tópicos )|DataSync]] · [[0 AWS Snow Family (Tópicos )|Snow Family]]
+- **3.2 Computação elástica de alto desempenho** → [[0 Amazon EC2 (Tópicos )|EC2]] · [[0 AWS Lambda (Tópicos )|Lambda]] · [[0 Amazon ECS (Tópicos )|ECS]] · [[0 Amazon EKS (Tópicos )|EKS]] · [[0 AWS Batch (Tópicos )|Batch]] · [[0 AWS Elastic Beanstalk (Tópicos )|Elastic Beanstalk]]
+- **3.3 Bancos de dados de alta performance** → [[0 Amazon RDS (Tópicos )|RDS]] · [[0 Amazon Aurora (Tópicos )|Aurora]] · [[0 Amazon DynamoDB (Tópicos )|DynamoDB]] · [[0 Amazon ElastiCache (Tópicos )|ElastiCache]] · [[0 Amazon Redshift (Tópicos )|Redshift]] · [[0 Amazon DocumentDB (Tópicos )|DocumentDB]] · [[0 Amazon Neptune (Tópicos )|Neptune]]
+- **3.4 Arquiteturas de rede de alta performance** → [[0 Amazon CloudFront (Tópicos )|CloudFront]] · [[0 AWS Global Accelerator (Tópicos )|Global Accelerator]] · [[0 Amazon Route 53 (Tópicos )|Route 53]] · [[0 Amazon VPC (Tópicos )|VPC]] · [[0 Elastic Load Balancing (Tópicos )|ELB]] · [[3.1.2.2. AWS Direct Connect|Direct Connect]]
+- **3.5 Ingestão e transformação de dados** → [[0 Amazon Kinesis (Tópicos )|Kinesis]] · [[0 AWS Glue (Tópicos )|Glue]] · [[0 Amazon Athena (Tópicos )|Athena]] · [[0 Amazon QuickSight (Tópicos )|QuickSight]] · [[0 AWS DataSync (Tópicos )|DataSync]] · [[0 AWS Database Migration Service (Tópicos )|DMS]] · [[0 Amazon EMR (Tópicos )|EMR]] · [[0 Amazon OpenSearch Service (Tópicos )|OpenSearch Service]] · [[0 AWS Lake Formation (Tópicos )|Lake Formation]] · [[0 AWS Transfer Family (Tópicos )|Transfer Family]]
+
+### Domínio 4 — Design Cost-Optimized Architectures
+- **4.1 Armazenamento otimizado em custo** → [[4.1.2.1. Modelos de preços de armazenamento|Preços de armazenamento]] · [[0 Amazon S3 (Tópicos )|S3]] (classes, Lifecycle, Glacier) · [[0 Amazon EBS (Tópicos )|EBS]] · [[0 Amazon EFS (Tópicos )|EFS]] · [[0 AWS Backup (Tópicos )|Backup]]
+- **4.2 Computação otimizada em custo** → [[3.1.1.1. On-Demand — flexibilidade máxima, cobrança por segundo e quando usar|On-Demand]] · [[3.1.1.2. Reserved Instances — Standard e Convertible, descontos de até 72%, opções de pagamento e quando comprometer|Reserved]] · [[3.1.2.1. Compute Savings Plans — compromisso de gasto em dólar por hora, cobertura automática e vantagem sobre Reserved|Savings Plans]] · [[3.1.2.2. Spot Instances — capacidade ociosa, 70-90% de desconto, estratégias de diversificação e quando usar com segurança|Spot]] · [[3.1.3.1. Dedicated Instances e Dedicated Hosts — compliance, licenças BYOL (Oracle, Windows) e trade-offs de custo|Dedicated]] · [[0 AWS Compute Optimizer (Tópicos )|Compute Optimizer (right-sizing)]] · [[0 AWS Lambda (Tópicos )|Lambda]]
+- **4.3 Bancos de dados otimizados em custo** → [[0 Amazon RDS (Tópicos )|RDS]] · [[0 Amazon Aurora (Tópicos )|Aurora]] · [[0 Amazon DynamoDB (Tópicos )|DynamoDB (on-demand vs provisioned)]] · [[0 Amazon ElastiCache (Tópicos )|ElastiCache]]
+- **4.4 Redes otimizadas em custo** → [[4.1.2.2. Preços de transferência de dados|Preços de transferência de dados]] · [[0 Amazon CloudFront (Tópicos )|CloudFront]] · [[0 Amazon VPC (Tópicos )|VPC]] (Dom. 4 NAT · 6 Gateway vs Interface endpoints) · [[3.1.2.2. AWS Direct Connect|Direct Connect]]
+- **Ferramentas de custo (apoio)** → [[4.2.1.1. AWS Budgets|Budgets]] · [[4.2.1.2. AWS Cost Explorer|Cost Explorer]] · [[4.2.1.5. Tags para alocação de custos|Tags de custo]] · [[4.2.1.6. Consolidated Billing|Consolidated Billing]] · [[4.1.2.3. AWS Free Tier (tipos e limites)|Free Tier]] · [[2.4.1.1. AWS Trusted Advisor|Trusted Advisor]]
+
+### Seções 5–8 (Confrontos, Números, Outros serviços, Palavras-gatilho)
+- **5 Confrontos clássicos** (SQS×SNS×Kinesis, EBS×EFS×FSx, RDS×Aurora×DynamoDB, ALB×NLB, SG×NACL, Peering×TGW×PrivateLink, VPN×DX…) → ler o sub-glossário do serviço e a folha de comparação dentro dele; redes em [[0 Amazon VPC (Tópicos )|VPC]] (Dom. 5–8).
+- **7 Outros serviços in-scope** → [[0 AWS CloudFormation (Tópicos )|CloudFormation]] · [[0 AWS CloudTrail (Tópicos )|CloudTrail]] · [[0 AWS Config (Tópicos )|Config]] · [[0 AWS Service Catalog (Tópicos )|Service Catalog]] · [[0 AWS Migration Hub (Tópicos )|Migration Hub]] · [[0 Amazon Lightsail (Tópicos )|Lightsail]].

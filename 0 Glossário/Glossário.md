@@ -241,7 +241,7 @@
 ### Cloud Computing
 
 - [ ] Google Cloud Platform
-- [ ] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/0 AWS core (Glossário ) | AWS — Amazon Web Services]]
+- [x] [[8. DevOps e Gerenciamento de Infraestrutura/CLOUD COMPUTING/AWS (AMAZON WEB SERVICE)/0 AWS core (Glossário ) | AWS — Amazon Web Services]]
 - [ ] Azure
 - [ ] OpenStack
 - [ ] Salesforce — CRM e desenvolvimento em nuvem
