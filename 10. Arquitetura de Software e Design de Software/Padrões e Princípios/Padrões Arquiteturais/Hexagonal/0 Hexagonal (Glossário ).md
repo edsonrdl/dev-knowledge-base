@@ -95,6 +95,13 @@
   - [x] [[10. Arquitetura de Software e Design de Software/Padrões e Princípios/Padrões Arquiteturais/Hexagonal/5. Relação com Outras Arquiteturas/5.3 Hexagonal e Microsserviços/5.3.1. Fronteiras Internas vs Fronteiras de Serviço/5.3.1.1. Quem Decide os Limites de um Microsserviço|5.3.1.1. Quem Decide os Limites de um Microsserviço]]
 
 ---
+
+## 6 Domínio: Implementação e Template
+
+- [ ] [[10. Arquitetura de Software e Design de Software/Padrões e Princípios/Padrões Arquiteturais/Hexagonal/Plano - Template Monolítico Modular Hexagonal|Plano - Template Monolítico Modular Hexagonal]]
+- [ ] [[10. Arquitetura de Software e Design de Software/Padrões e Princípios/Padrões Arquiteturais/Hexagonal/Template Monolítico Modular (Multi-Module Hexagonal Architecture)|Template Monolítico Modular (Multi-Module Hexagonal Architecture)]]
+
+---
 > **Glossário Pai:** [[0 Glossário/Glossário|Base de Conhecimento Tecnológico]]
 >
 > **Links Relacionados:**
