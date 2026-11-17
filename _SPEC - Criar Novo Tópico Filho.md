@@ -16,17 +16,17 @@ Glossário.md                                    ← PAI: índice geral
 │
 └── [Seção]/[Subcategoria]/[Tópico]/
       │
-      ├── 0 [Tópico] (Tópicos ).md              ← ÍNDICE: domínios e subtópicos
+      ├── 0 [Tópico] (Glossário ).md              ← ÍNDICE: domínios e subtópicos
       │
-      ├── 1. [Domínio A]/                        ← PASTA de domínio (se tiver múltiplos filhos)
-      │     ├── 1.1 [Subtópico]/                 ← PASTA de subtópico (se tiver múltiplos filhos)
+      ├── 1. [Domínio A]/                        ← PASTA de domínio (sempre)
+      │     ├── 1.1 [Subtópico]/                 ← PASTA de subtópico (sempre)
       │     │     ├── 1.1.1.1. Descrição.md      ← ARQUIVO folha
       │     │     └── 1.1.1.2. Descrição.md
       │     └── 1.2 [Subtópico]/
       │           └── 1.2.1.1. Descrição.md
       │
       └── 2. [Domínio B]/
-            └── 2.1.1.1. Descrição.md            ← arquivo único se só um filho
+            └── 2.1 [Subtópico]/ ... 2.1.1.1. Descrição.md   ← sempre pasta, mesmo com um só filho
 ```
 
 ---
@@ -74,7 +74,7 @@ Executar imediatamente ao receber o pedido:
 
 1. **Atualizar o Glossário** — substituir o item de texto pelo link correto
 2. **Criar todas as pastas** da estrutura do tópico
-3. **Criar o arquivo índice** `0 [Nome] (Tópicos ).md` com todos os itens como `- [ ]` (checkboxes desmarcados, sem links)
+3. **Criar o arquivo índice** `0 [Nome] (Glossário ).md` com todos os itens como `- [ ]` (checkboxes desmarcados, sem links)
 
 Ao final da Fase 1, exibir a estrutura criada e perguntar:
 
@@ -169,8 +169,8 @@ O checkbox do Glossário reflete o estado geral do tópico:
 | Estado | Formato | Significado |
 |---|---|---|
 | Não iniciado | `- [ ] Nome do Tópico` | Nenhum arquivo criado ainda |
-| Em andamento | `- [ ] [[caminho/0 Nome (Tópicos )\|Nome]]` | Estrutura criada, conteúdos em produção |
-| Concluído | `- [x] [[caminho/0 Nome (Tópicos )\|Nome]]` | **Todos** os arquivos folha criados |
+| Em andamento | `- [ ] [[caminho/0 Nome (Glossário )\|Nome]]` | Estrutura criada, conteúdos em produção |
+| Concluído | `- [x] [[caminho/0 Nome (Glossário )\|Nome]]` | **Todos** os arquivos folha criados |
 
 **Fluxo no Glossário:**
 1. **Ao criar a estrutura (Fase 1):** `- [ ] Nome` → `- [ ] [[caminho|Nome]]` (link adicionado, checkbox ainda desmarcado)
@@ -180,17 +180,17 @@ O checkbox do Glossário reflete o estado geral do tópico:
 No arquivo `0 Glossário/Glossário.md`, localizar o item e substituir pelo link:
 
 ```markdown
-- [ ] [[Seção/Subcategoria/Nome/0 Nome (Tópicos )|Nome]]
+- [ ] [[Seção/Subcategoria/Nome/0 Nome (Glossário )|Nome]]
 ```
 
 **Exemplo após criar a estrutura:**
 ```markdown
-- [ ] [[1. REDES E INFRAESTRUTURA/Conceitos Fundamentais/DNS/0 DNS (Tópicos )|DNS]]
+- [ ] [[1. REDES E INFRAESTRUTURA/Conceitos Fundamentais/DNS/0 DNS (Glossário )|DNS]]
 ```
 
 **Exemplo após criar todos os conteúdos:**
 ```markdown
-- [x] [[1. REDES E INFRAESTRUTURA/Conceitos Fundamentais/DNS/0 DNS (Tópicos )|DNS]]
+- [x] [[1. REDES E INFRAESTRUTURA/Conceitos Fundamentais/DNS/0 DNS (Glossário )|DNS]]
 ```
 
 ---
@@ -212,7 +212,7 @@ Criar a estrutura de pastas de acordo com a regra "pasta ou arquivo":
 
 ## Passo 3 — Criar o arquivo índice
 
-**Nome:** `0 [Nome do Tópico] (Tópicos ).md`
+**Nome:** `0 [Nome do Tópico] (Glossário ).md`
 > Manter o espaço antes do `.md` — faz parte do padrão de nomenclatura.
 
 ### Template do arquivo índice (com checkboxes desmarcados):
@@ -248,8 +248,8 @@ Criar a estrutura de pastas de acordo com a regra "pasta ou arquivo":
 ---
 
 > **Links Relacionados:**
-> [Tópico relacionado 1]
-> [Tópico relacionado 2]
+> [[caminho/0 Tópico (Glossário )|Tópico relacionado 1]]
+> [[caminho/0 Tópico (Glossário )|Tópico relacionado 2]]
 ```
 
 > Todos os itens folha começam como `- [ ]` (sem link). O link e o `[x]` são adicionados após a criação do arquivo na Fase 2.
@@ -347,15 +347,15 @@ DEPOIS (criado):
 
 | Elemento | Padrão |
 |---|---|
-| Nome do arquivo índice | `0 [Nome] (Tópicos ).md` |
+| Nome do arquivo índice | `0 [Nome] (Glossário ).md` |
 | Nome das pastas de domínio | `N. Nome do Domínio/` (numerado, sem `.md`) |
-| Nome das pastas de subtópico | `N.x Nome do Subtópico/` (quando tiver múltiplos filhos) |
+| Nome das pastas de subtópico | `N.x Nome do Subtópico/` (sempre) |
 | Nome dos arquivos folha | `N.N.N.N. Descrição exata como no índice.md` |
 | Link no índice — domínio `##` | **Texto puro sempre** — domínio é pasta, não arquivo |
 | Link no índice — subtópico `###` | **Texto puro sempre** — subtópico é agrupador lógico |
 | Item pendente no índice | `  - [ ] N.N.N.N. Descrição` (checkbox desmarcado) |
 | Item criado no índice | `  - [x] [[caminho\|N.N.N.N. Descrição]]` (checkbox marcado + link) |
-| Seções no índice | `**N.N.N. Título**` (bold, 3 níveis) |
+| Seções no índice | `**N.N.N. Título**` (bold, formato N.N.N.) |
 | Separador entre domínios | `---` |
 | Rodapé do índice | `> **Links Relacionados:**` |
 | Emoji no título do índice | `📚` fixo |
@@ -372,7 +372,7 @@ DEPOIS (criado):
 **FASE 1 (imediata):**
 1. Atualizar o Glossário com o link para DNS
 2. Criar toda a estrutura de pastas do DNS
-3. Criar `0 DNS (Tópicos ).md` com todos os itens como `- [ ]`
+3. Criar `0 DNS (Glossário ).md` com todos os itens como `- [ ]`
 4. Perguntar: *"Estrutura criada! Quer que eu implemente o conteúdo `1.1.1.1. O que é DNS...` detalhado?"*
 
 **FASE 2 (um por um):**
@@ -390,7 +390,7 @@ Para tópicos que são **serviços complexos** (ex: Amazon EC2, AWS Lambda, Amaz
 ```
 3.3.1. Computação/
   3.3.1.1. Amazon EC2/            ← pasta do serviço (não arquivo)
-    0 Amazon EC2 (Tópicos ).md   ← sub-glossário com [ ] em todos os itens
+    0 Amazon EC2 (Glossário ).md   ← sub-glossário com [ ] em todos os itens
     1. Fundamentos/
       1.1 O que é EC2/
         ...
@@ -403,7 +403,7 @@ Para tópicos que são **serviços complexos** (ex: Amazon EC2, AWS Lambda, Amaz
 No glossário pai, o link aponta para o sub-glossário (não para arquivo de conteúdo):
 
 ```markdown
-- [ ] [[caminho/3.3.1.1. Amazon EC2/0 Amazon EC2 (Tópicos )|3.3.1.1. Amazon EC2]]
+- [ ] [[caminho/3.3.1.1. Amazon EC2/0 Amazon EC2 (Glossário )|3.3.1.1. Amazon EC2]]
 ```
 
 Critério para usar sub-glossário:
@@ -419,7 +419,7 @@ Critério para usar sub-glossário:
 Estrutura atual do TCP IP:
 ```
 TCP IP/
-  0 TCP IP (Tópicos ).md
+  0 TCP IP (Glossário ).md
   1. Fundamentos e Arquitetura/
     1.1.1.1. Explicação do TCP IP...md
   2. Endereçamento e Roteamento/
@@ -439,5 +439,22 @@ TCP IP/
       2.2.2.1. Conceito e necessidade de segmentação...md
       2.2.3.1. Como calcular sub-redes...md
       2.2.4.1. Como otimizar o desperdício de IPs...md
-    IPs Reservados.md
+    IPs Reservados.md   (legado: arquivo solto, fora do padrão atual; novos tópicos devem seguir a regra "sempre pasta")
 ```
+
+---
+
+## Padronizar conteúdo que já existe
+
+Quando a pasta do tópico já tem arquivos soltos (rascunhos, relatórios colados de chat):
+
+1. **Avaliar cada arquivo:** vazio ou rascunho de poucas linhas → excluir e virar item `- [ ]` no índice; conteúdo real → migrar.
+2. **Montar o índice primeiro** (domínios, subtópicos, seções) e encaixar cada arquivo na folha correspondente.
+3. **Arquivo grande com várias seções** → dividir em uma folha por seção, promovendo o primeiro `##` a título `###` e rebaixando os demais níveis.
+4. **Não duplicar** temas que já têm item próprio no Glossário geral; citar em `Links Relacionados`.
+5. **Marcar `[x]` só com link válido.** Folha migrada sem quiz e sem os demais elementos do padrão deve ser listada como pendente de revisão.
+
+## Restrições de nome e caminho (Windows)
+
+- Nomes de arquivo e pasta **sem** `: / \ ? * " < > |`.
+- Caminhos acima de 260 caracteres falham em ferramentas antigas (PowerShell 5.1, .NET Framework). Prefira nomes de folha curtos.

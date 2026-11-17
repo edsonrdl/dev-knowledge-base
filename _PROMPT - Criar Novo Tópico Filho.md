@@ -1,5 +1,7 @@
 # Prompt — Criar Novo Tópico Filho (Chat)
 
+> A fonte de verdade das regras é `_SPEC - Criar Novo Tópico Filho.md`. Este prompt é uma cópia autocontida para chats sem acesso ao workspace; ao alterar a SPEC, atualize aqui.
+
 Cole o bloco abaixo em qualquer chat de IA, substitua `[TÓPICO]`, `[SEÇÃO]` e `[SUBCATEGORIA]` e envie.
 
 ---
@@ -20,10 +22,10 @@ A criação acontece em duas fases. Siga rigorosamente.
 
 ### FASE 1 — Estrutura (executar imediatamente, sem pedir confirmação)
 
-1. Atualizar o Glossário: substituir `- [ ] [TÓPICO]` por `- [ ] [[caminho/0 [TÓPICO] (Tópicos )|[TÓPICO]]]`
+1. Atualizar o Glossário: substituir `- [ ] [TÓPICO]` por `- [ ] [[caminho/0 [TÓPICO] (Glossário )|[TÓPICO]]]`
    → O checkbox do Glossário fica `- [ ]` até o último conteúdo ser criado
 2. Criar todas as pastas da estrutura do tópico
-3. Criar o arquivo índice `0 [TÓPICO] (Tópicos ).md` com TODOS os itens folha como `- [ ]` (checkboxes desmarcados, SEM links)
+3. Criar o arquivo índice `0 [TÓPICO] (Glossário ).md` com TODOS os itens folha como `- [ ]` (checkboxes desmarcados, SEM links)
 4. Exibir a estrutura criada e perguntar:
    > "Estrutura criada! Quer que eu implemente o conteúdo `1.1.1.1. [nome]` detalhado?"
 
@@ -54,7 +56,7 @@ Para cada arquivo folha `N.N.N.N.`, após confirmação do usuário:
 Glossário.md                    ← índice geral
 │
 └── [Seção]/[Subcategoria]/[Tópico]/
-      ├── 0 [Tópico] (Tópicos ).md    ← ÍNDICE
+      ├── 0 [Tópico] (Glossário ).md    ← ÍNDICE
       ├── 1. [Domínio A]/              ← PASTA de domínio (sempre)
       │     ├── 1.1 [Subtópico]/       ← PASTA de subtópico (sempre)
       │     │     └── 1.1.1.1. Arquivo.md   ← ARQUIVO folha
@@ -114,7 +116,7 @@ NUNCA criar `[[link]]` para arquivo que ainda não existe.
 ---
 
 > **Links Relacionados:**
-> [[caminho/tópico-relacionado|Tópico Relacionado 1]]
+> [[caminho/0 Tópico (Glossário )|Tópico Relacionado 1]]
 ```
 
 ---
@@ -206,7 +208,7 @@ comando --flag valor
 
 ## REGRAS OBRIGATÓRIAS
 
-- Nome do índice: `0 [Nome] (Tópicos ).md` — manter o espaço antes de `.md`
+- Nome do índice: `0 [Nome] (Glossário ).md` — manter o espaço antes de `.md`
 - Pastas de domínio: `N. Nome/` (numerado, sem `.md`)
 - `##` domínio → texto puro SEMPRE
 - `###` subtópico → texto puro SEMPRE
