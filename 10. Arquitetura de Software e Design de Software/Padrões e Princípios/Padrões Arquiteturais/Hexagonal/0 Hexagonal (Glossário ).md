@@ -100,6 +100,7 @@
 
 - [ ] [[10. Arquitetura de Software e Design de Software/Padrões e Princípios/Padrões Arquiteturais/Hexagonal/Plano - Template Monolítico Modular Hexagonal|Plano - Template Monolítico Modular Hexagonal]]
 - [ ] [[10. Arquitetura de Software e Design de Software/Padrões e Princípios/Padrões Arquiteturais/Hexagonal/Template Monolítico Modular (Multi-Module Hexagonal Architecture)|Template Monolítico Modular (Multi-Module Hexagonal Architecture)]]
+- [ ] [[10. Arquitetura de Software e Design de Software/Padrões e Princípios/Padrões Arquiteturais/Hexagonal/Exemplo de Implementação - Monólito Modular Hexagonal (Java, Spring e Maven)|Exemplo de Implementação - Monólito Modular Hexagonal (Java, Spring e Maven)]]
 
 ---
 > **Glossário Pai:** [[0 Glossário/Glossário|Base de Conhecimento Tecnológico]]
