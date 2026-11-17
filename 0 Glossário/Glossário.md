@@ -350,7 +350,7 @@
 - [ ] Design Patterns
 - [ ] Princípios SOLID
 - [x] [[10. Arquitetura de Software e Design de Software/Padrões e Princípios/Padrões Arquiteturais/Hexagonal/0 Hexagonal (Glossário )|Hexagonal]]
-- [ ] [[10. Arquitetura de Software e Design de Software/Padrões e Princípios/Padrões Arquiteturais/Microservices/0 Microservices (Glossário )|Microservices]]
+- [x] [[10. Arquitetura de Software e Design de Software/Padrões e Princípios/Padrões Arquiteturais/Microservices/0 Microservices (Glossário )|Microservices]]
 - [x] [[10. Arquitetura de Software e Design de Software/Padrões e Princípios/Padrões Arquiteturais/Clean architecture/0 Clean Architecture (Glossário )|Clean Architecture]]
 - [ ] MVC
 - [ ] Stateful vs Stateless

@@ -31,7 +31,7 @@
 
 ### 2.2 Mensageria
 - **2.2.1. Canais de Mensagem**
-  - [ ] 2.2.1.1. Tipos de canais — Point-to-Point e Publish/Subscribe
+  - [x] [[10. Arquitetura de Software e Design de Software/Padrões e Princípios/Padrões Arquiteturais/Microservices/2. Comunicação entre Serviços/2.2 Mensageria/2.2.1. Canais de Mensagem/2.2.1.1. Tipos de canais — Point-to-Point e Publish-Subscribe|2.2.1.1. Tipos de canais — Point-to-Point e Publish/Subscribe]]
 
 ### 2.3 Resiliência
 - **2.3.1. Falhas em Cascata**
