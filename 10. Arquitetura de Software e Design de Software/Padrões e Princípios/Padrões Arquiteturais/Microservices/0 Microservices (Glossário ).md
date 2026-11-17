@@ -27,7 +27,7 @@
 - **2.1.1. Estilos de Comunicação**
   - [x] [[10. Arquitetura de Software e Design de Software/Padrões e Princípios/Padrões Arquiteturais/Microservices/2. Comunicação entre Serviços/2.1 IPC/2.1.1. Estilos de Comunicação/2.1.1.1. Como definir o seu IPC — síncrono vs assíncrono, REST, gRPC e mensageria|2.1.1.1. Como definir o seu IPC — síncrono vs assíncrono, REST, gRPC e mensageria]]
 - **2.1.2. Contrato da API**
-  - [ ] 2.1.2.1. API First Design — contrato antes do código
+  - [x] [[10. Arquitetura de Software e Design de Software/Padrões e Princípios/Padrões Arquiteturais/Microservices/2. Comunicação entre Serviços/2.1 IPC/2.1.2. Contrato da API/2.1.2.1. API First Design — contrato antes do código|2.1.2.1. API First Design — contrato antes do código]]
 
 ### 2.2 Mensageria
 - **2.2.1. Canais de Mensagem**
