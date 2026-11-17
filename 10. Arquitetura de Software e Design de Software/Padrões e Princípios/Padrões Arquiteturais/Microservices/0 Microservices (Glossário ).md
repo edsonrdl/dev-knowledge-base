@@ -11,7 +11,7 @@
 ### 1.1 Conceito e Contexto
 - **1.1.1. O que são Microservices**
   - [x] [[10. Arquitetura de Software e Design de Software/Padrões e Princípios/Padrões Arquiteturais/Microservices/1. Fundamentos e Contexto/1.1 Conceito e Contexto/1.1.1. O que são Microservices/1.1.1.1. O que é Microservices — definição, características e princípios|1.1.1.1. O que é Microservices — definição, características e princípios]]
-  - [ ] 1.1.1.2. Quando adotar e quando não adotar microsserviços
+  - [x] [[10. Arquitetura de Software e Design de Software/Padrões e Princípios/Padrões Arquiteturais/Microservices/1. Fundamentos e Contexto/1.1 Conceito e Contexto/1.1.1. O que são Microservices/1.1.1.2. Quando adotar e quando não adotar microsserviços|1.1.1.2. Quando adotar e quando não adotar microsserviços]]
 - **1.1.2. Monolito vs Microsserviços**
   - [x] [[10. Arquitetura de Software e Design de Software/Padrões e Princípios/Padrões Arquiteturais/Microservices/1. Fundamentos e Contexto/1.1 Conceito e Contexto/1.1.2. Monolito vs Microsserviços/1.1.2.1. Monolítico Modular vs Microsserviços|1.1.2.1. Monolítico Modular vs Microsserviços]]
 
