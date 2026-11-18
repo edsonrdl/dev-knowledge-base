@@ -54,7 +54,7 @@
 - **3.2.1. Agregados e Raízes de Agregação**
   - [x] [[10. Arquitetura de Software e Design de Software/Padrões e Princípios/Domain Diven Design DDD/3. Design Tático/3.2 Agregados e Repositórios/3.2.1. Agregados e Raízes de Agregação/3.2.1.1. Aggregates e Aggregate Root — conceito e implementação|3.2.1.1. Aggregates e Aggregate Root — conceito e implementação]]
 - **3.2.2. Repositórios (Repositories)**
-  - [ ] 3.2.2.1. Repositories — coleção em memória e a regra de ouro das raízes
+  - [x] [[10. Arquitetura de Software e Design de Software/Padrões e Princípios/Domain Diven Design DDD/3. Design Tático/3.2 Agregados e Repositórios/3.2.2. Repositórios/3.2.2.1. Repositories — coleção em memória e a regra de ouro das raízes|3.2.2.1. Repositories — coleção em memória e a regra de ouro das raízes]]
 
 ### 3.3 Serviços e Eventos
 - **3.3.1. Serviços de Domínio (Domain Services)**
