@@ -38,7 +38,7 @@
 - **2.3.1. Padrões de Integração entre Bounded Contexts**
   - [x] [[10. Arquitetura de Software e Design de Software/Padrões e Princípios/Domain Diven Design DDD/2. Design Estratégico/2.3 Context Mapping/2.3.1. Padrões de Integração entre Bounded Contexts/2.3.1.1. Shared Kernel|2.3.1.1. Shared Kernel]]
   - [x] [[10. Arquitetura de Software e Design de Software/Padrões e Princípios/Domain Diven Design DDD/2. Design Estratégico/2.3 Context Mapping/2.3.1. Padrões de Integração entre Bounded Contexts/2.3.1.2. Customer-Supplier (Upstream e Downstream)|2.3.1.2. Customer-Supplier (Upstream e Downstream)]]
-  - [ ] 2.3.1.3. Anticorruption Layer (ACL)
+  - [x] [[10. Arquitetura de Software e Design de Software/Padrões e Princípios/Domain Diven Design DDD/2. Design Estratégico/2.3 Context Mapping/2.3.1. Padrões de Integração entre Bounded Contexts/2.3.1.3. Anticorruption Layer (ACL)|2.3.1.3. Anticorruption Layer (ACL)]]
 
 ---
 
