@@ -26,7 +26,7 @@
 - **2.1.2. Supporting Subdomain (Domínio de Suporte)**
   - [x] [[10. Arquitetura de Software e Design de Software/Padrões e Princípios/Domain Diven Design DDD/2. Design Estratégico/2.1 Subdomínios/2.1.2. Supporting Subdomain/2.1.2.1. Supporting Subdomain — necessário, mas não diferencial|2.1.2.1. Supporting Subdomain — necessário, mas não diferencial]]
 - **2.1.3. Generic Subdomain (Domínio Genérico)**
-  - [ ] 2.1.3.1. Generic Subdomain — comprar pronto ou usar Open Source
+  - [x] [[10. Arquitetura de Software e Design de Software/Padrões e Princípios/Domain Diven Design DDD/2. Design Estratégico/2.1 Subdomínios/2.1.3. Generic Subdomain/2.1.3.1. Generic Subdomain — comprar pronto ou usar Open Source|2.1.3.1. Generic Subdomain — comprar pronto ou usar Open Source]]
 
 ### 2.2 Bounded Contexts (Contextos Delimitados)
 - **2.2.1. Fronteiras de Escopo**
