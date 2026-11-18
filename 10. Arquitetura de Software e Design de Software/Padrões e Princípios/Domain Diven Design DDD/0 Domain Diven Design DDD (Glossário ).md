@@ -14,7 +14,7 @@
 - **1.1.2. Linguagem Ubíqua (Ubiquitous Language)**
   - [x] [[10. Arquitetura de Software e Design de Software/Padrões e Princípios/Domain Diven Design DDD/1. Pilares Fundamentais do DDD/1.1 Alicerces da Modelagem/1.1.2. Linguagem Ubíqua/1.1.2.1. Linguagem Ubíqua e seu reflexo exato no código|1.1.2.1. Linguagem Ubíqua e seu reflexo exato no código]]
 - **1.1.3. Separação de Preocupações (Estratégico vs Tático)**
-  - [ ] 1.1.3.1. Design Estratégico (o quê e onde) vs Design Tático (como)
+  - [x] [[10. Arquitetura de Software e Design de Software/Padrões e Princípios/Domain Diven Design DDD/1. Pilares Fundamentais do DDD/1.1 Alicerces da Modelagem/1.1.3. Separação de Preocupações/1.1.3.1. Design Estratégico (o quê e onde) vs Design Tático (como)|1.1.3.1. Design Estratégico (o quê e onde) vs Design Tático (como)]]
 
 ---
 
