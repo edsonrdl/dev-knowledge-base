@@ -32,7 +32,7 @@
 - **2.2.1. Fronteiras de Escopo**
   - [x] [[10. Arquitetura de Software e Design de Software/Padrões e Princípios/Domain Diven Design DDD/2. Design Estratégico/2.2 Bounded Contexts/2.2.1. Fronteiras de Escopo/2.2.1.1. Bounded Context — a fronteira do modelo|2.2.1.1. Bounded Context — a fronteira do modelo]]
 - **2.2.2. Autonomia**
-  - [ ] 2.2.2.1. Mesmo termo, modelos diferentes em cada contexto
+  - [x] [[10. Arquitetura de Software e Design de Software/Padrões e Princípios/Domain Diven Design DDD/2. Design Estratégico/2.2 Bounded Contexts/2.2.2. Autonomia/2.2.2.1. Mesmo termo, modelos diferentes em cada contexto|2.2.2.1. Mesmo termo, modelos diferentes em cada contexto]]
 
 ### 2.3 Context Mapping (Mapeamento de Contexto)
 - **2.3.1. Padrões de Integração entre Bounded Contexts**
