@@ -346,7 +346,7 @@
 
 ### Padrões e Princípios
 
-- [ ] Domain-Driven Design (DDD)
+- [ ] [[10. Arquitetura de Software e Design de Software/Padrões e Princípios/Domain Diven Design DDD/0 Domain Diven Design DDD (Glossário )|Domain-Driven Design (DDD)]]
 - [ ] Design Patterns
 - [ ] Princípios SOLID
 - [x] [[10. Arquitetura de Software e Design de Software/Padrões e Princípios/Padrões Arquiteturais/Hexagonal/0 Hexagonal (Glossário )|Hexagonal]]
