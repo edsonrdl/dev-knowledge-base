@@ -24,7 +24,7 @@
 - **2.1.1. Core Domain (Domínio Principal)**
   - [x] [[10. Arquitetura de Software e Design de Software/Padrões e Princípios/Domain Diven Design DDD/2. Design Estratégico/2.1 Subdomínios/2.1.1. Core Domain/2.1.1.1. Core Domain — o diferencial competitivo|2.1.1.1. Core Domain — o diferencial competitivo]]
 - **2.1.2. Supporting Subdomain (Domínio de Suporte)**
-  - [ ] 2.1.2.1. Supporting Subdomain — necessário, mas não diferencial
+  - [x] [[10. Arquitetura de Software e Design de Software/Padrões e Princípios/Domain Diven Design DDD/2. Design Estratégico/2.1 Subdomínios/2.1.2. Supporting Subdomain/2.1.2.1. Supporting Subdomain — necessário, mas não diferencial|2.1.2.1. Supporting Subdomain — necessário, mas não diferencial]]
 - **2.1.3. Generic Subdomain (Domínio Genérico)**
   - [ ] 2.1.3.1. Generic Subdomain — comprar pronto ou usar Open Source
 
