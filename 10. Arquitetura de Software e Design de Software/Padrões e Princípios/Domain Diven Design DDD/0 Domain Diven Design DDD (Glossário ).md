@@ -46,7 +46,7 @@
 
 ### 3.1 Entidades e Objetos de Valor
 - **3.1.1. Entidades (Entities)**
-  - [ ] 3.1.1.1. Entities — identidade única e ciclo de vida
+  - [x] [[10. Arquitetura de Software e Design de Software/Padrões e Princípios/Domain Diven Design DDD/3. Design Tático/3.1 Entidades e Objetos de Valor/3.1.1. Entidades/3.1.1.1. Entities — identidade única e ciclo de vida|3.1.1.1. Entities — identidade única e ciclo de vida]]
 - **3.1.2. Objetos de Valor (Value Objects)**
   - [ ] 3.1.2.1. Value Objects — sem identidade e imutáveis
 
