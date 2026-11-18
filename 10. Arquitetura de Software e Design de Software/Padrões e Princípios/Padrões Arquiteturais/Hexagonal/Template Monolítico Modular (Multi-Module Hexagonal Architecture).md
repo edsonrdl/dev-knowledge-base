@@ -184,6 +184,22 @@ Nomes de módulo: minúsculas, em inglês, substantivo do negócio. Em serviço 
 
 **Regra de triagem:** a decisão depende de conhecimento de negócio ou é só execução técnica? Negócio vai para o `domain`; técnica vai para um adapter. Regra de uma entidade só vira método da entidade; regra que combina agregados vira domain service; regra reutilizável e combinável vira specification. A `application` apenas **chama** a decisão que o domínio tomou.
 
+### Como criar uma integração (API externa, mensageria ou outro módulo)
+
+A aplicação **nunca** chama a tecnologia: ela chama uma porta de saída, e um adapter de saída a implementa.
+
+1. **Nomear a porta pelo negócio**, não pela tecnologia nem pelo provedor: `buscar pagamento`, e não `chamar API do provedor X`.
+2. **Declarar a porta em `application/ports/out`**, só com as operações que o caso de uso usa, em **tipos do próprio módulo** (nunca a resposta crua da API).
+3. **Chamar a porta no serviço de aplicação**, sem saber o que existe por trás.
+4. **Implementar em `adapters/out/<integração>/`** (um adapter por serviço): chamada HTTP ou cliente, tradução do formato externo para o modelo próprio, timeout, erro e nova tentativa. Sem regra de negócio.
+5. **Mensageria de saída:** porta de publicação em `application/ports/out`, publicador em `adapters/out/events`. **De entrada:** assinante em `adapters/in/events` que chama uma porta de entrada; se o evento cruza módulos, o contrato fica em `api/`.
+6. **Outro módulo:** porta de saída + anticorruption layer em `adapters/out/<outro-modulo>`, usando só o `api/` do vizinho.
+7. **Ligar** a porta à implementação na composição do módulo.
+8. **Testar:** o serviço de aplicação com porta falsa (sem rede); o adapter com serviço simulado ou container.
+
+> [!tip] Trocar de provedor
+> É escrever outro adapter e mudar só a ligação na composição. `domain` e `application` não mudam.
+
 ---
 
 ## 8. Papel de cada peça
